@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Visual Studio 2019 - Keyboard Shortcuts</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="data:text/css,body%2C%20html%20%7Bfont%2Dfamily%3A%20Segoe%20UI%2CSegoeUI%2CHelvetica%20Neue%2CHelvetica%2CArial%2Csans%2Dserif%3B%2Dwebkit%2Dfont%2Dsmoothing%3A%20antialiased%3Bfont%2Dweight%3A%20400%3Btext%2Drendering%3A%20optimizeLegibility%3Bfont%2Dsize%3A%2014px%3Bbackground%2Dcolor%3A%20%23E6E6E6%3Bcolor%3A%20%23000%3Bwidth%3A%201400px%3Bheight%3A%2080%25%3Bpadding%3A%2020px%3B%7D%2Econtainer%20%7Bbackground%2Dcolor%3A%20%23fff%3Bbox%2Dshadow%3A%200%200%2014px%20rgba%280%2C0%2C0%2C0%2E6%29%3Bmargin%3A%2010px%3Bcolumn%2Dwidth%3A%20400px%3Bpadding%3A%2010px%3B%7Dtable%20%7Bmargin%2Dbottom%3A%2010px%3Bmargin%2Dleft%3A%2010px%3Bwidth%3A%20400px%3Bborder%3A%200%3B%20border%2Dspacing%3A%200%3Bpadding%3A%200%3Bwhite%2Dspace%3A%20nowrap%3B%7Dthead%20%7Bdisplay%3Anone%3B%7Dtd%7Bpadding%3A%202px%3B%7D%2Eeven%20%7Bbackground%2Dcolor%3A%20%23F2F2F2%3B%7Dh1%20%7Bpadding%2Dleft%3A%2080px%3Bbackground%2Dposition%3A%200%2012px%3Bbackground%2Drepeat%3A%20no%2Drepeat%3Bbackground%2Dimage%3A%20url%28%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAA17SURBVGhD7Vh5bBzVGZ9zd3btPX3EjnM45ChJICFASVsoV1ALKBKVqqqRWiRaVQWESEul%2Fte%2FkFpVPYRUIEVQVVW4IrUCiigl3AqkVBUJuCHGOW3Hd%2Bw9vd5jZnem3%2FFmdtZXggR2kfjtzJt3fMfve9e8WdlxHOnzDEU8P7f4IoDlxv%2FLGvBoyLLMmYvE8gcABAB21ZEVWaYJwTFcZCTLGQC7htQq1c6%2BOC3ZTusVocgaXQ9DKCKGC4axbAGwX9u2rZna6Rfymb6KDIQVKdSuJbcEk5uD4TZNVjmExQZkeQLw2FcKtTPA%2FgSwR0AM9JO0sBJdq7dsM6KXBPQQDshCYSxDAHX201Xs%2B5OmTBSYmxcDQNGkYEJNbjVatgZD7bpCgaCML4ylDsDP%2FtRzucwpU3IEIbhnxSBqJUk15MiaQOsOI7ExqAbqAwJY0gA89mah2vfXXPa0CUUm0hiDKGCRaxmKVI1Wd%2FygvSkR8GJYuheZv%2B97D2TTpyrcddx%2FXj9ynQNP%2FIlWQM22%2B8dSvScmzHLV3%2BlLFIDHvpxH9pkz2PfAsCEG5O09BCALxZJp9Z4bG57K2vDG8DcvTQBAE%2BCyzwj2SI3YEh9MvAy1chNc6UKhp%2F9culBCDR9IcOEAhJQPouETghUhBfbHn81kzgJ7Ycy1WC9CDlNRC9Omdm7y%2FLHB4ZJZZQnb1QGw2jwBoBUC9Fl6xJwchMkqICQuGqwCdkpZ6yPBnvkJW%2FCAjBgHynML3GXLPD40eHp8ooascafFdlRAAQ%2BzAyCeRH3UPPxM7h%2B%2FTx18ON33TqFWhbknIEQvBJYU7GHen60gCWKJDa4dzx5VUqvjZAr598%2BcmMjkJEeRHNqNaPZTewMatlHIg7%2FsePX4mzP9R8qVAsSOraomb7oudPUdkWDYfbm72%2FBC8LM%2FdiCT7ef9HuowYe1Z%2Bz1lAc5QauzEyJDk6Dru%2BZqiqIor1ZwM7HlwS8vKJoXfauL4RwCXgMFj08%2F%2FcqLvULEyI9gDk6plf%2FzWzKuPpnMTFosBWGtesACyz1n%2FfQZnDot7SqIofuwGfzDpPxzo%2FbD%2FZK0GZ1OVJgj0PcvQCMzx2zCFoLmQKQ%2BdHKpaQJSr6KbVM3ai8uJvJgd6ijWYlfPZYnAToJixep5Mp%2FtxCZENt5WssjY1YA7uQmnm7ePvnZ0YVWXseJnZU5Nt8%2B5JhhohAkC7LsyyOT48YlkVNk8%2F0pWkYrb2%2Br700ZdyZhleLPOEwTWAYtrqeTqdHsCZg57FT8jQk01SqyxZoeIbx97NFKZ1xUD2ODV42sAkZ2nsxEZviNkjgIksmRVrbHjIFDFgnduK0%2Bn9F%2FJvPpGaTlmzYuAMpIJ9fwWL1ARA774Y3Iyk6HLHTr3leses2poShBkvwzHa7X5WY%2FgM1NEQAIDaMe6aaY8MDVTMEjohl5RiMwidPVJ8%2BaHJkb6SFwMDisD%2Bg6fSqQFiT%2FLolhWRjksBpCUnEFUu2R1ac3NID6qqElAUXZGQPSxoHAQHdk8QZwN4eYY8zA7AB8W2pJHRfiUgzh6c0I1petg6%2BMjkR2%2FkLROnE0cC8%2F7ok6n0AJ5zyBVGxWpcwwXORFfrm%2Fc0t28zVE3FrUaGnQX2Fry8mQMpzxxxYV0DFgkA%2BkHVFO3y27VIu0Lm6KYckoCX63Tt8LPpQ09OzeSsWq02kzKP7k%2Bl4cUnJIU%2FV0PckADDjquCm%2FdEoqsCKgFI08IV3c%2FzB6NHKwLzrLn5A2B1vGRV0VtW61%2B%2FqynajpKsjjZdLlXTPv52%2FqWHRkc%2BmjmyH2cOirgC3sPzCw81KK2%2FrWnD7kgopmuaBuxhU8e%2BB%2BoQmbt82Yu4CK4ZYYqx2AgAsGMUtWVV4IYfRSJtsDGzOtsW1u2anRksf%2FBUBvuejLsi9Qw%2BKWMk1G13Rrt2hgNBl7r7SuK1y8u3rsIXmaKLCj7MDaDe%2F3RJ6EHFGHbdG42tUNmEYI%2BjahsBaUXCqOHLCl3AA4AJ5fjGVHaSm%2FSr7o4n1hnU77PYAwR7kEUVAjrwJg8BW31YdATQFBoGX%2BAvuTJ48z3xeKeGxoV9JxiQ2%2BIBuya4snkvBmYON%2ByV3TeGt38vForqyL2RPUqDIyAjli8ecBBooO6NwiBZH%2BYLgLuezaJhmkbkMrkysOtuiEFlg0Fdao3qyJ4tsy8kLDxx0YgrW78TWX9LsxagnidTPuoCGAC8g1iRL7blXlTPzzoWHQEARoJuwBn7TkAM9yYgBmDfwuzZuuAsvHIG1BPr9O13xjouC3nrlakDSMoDeoILjnzYOQtCSHuYNwBhiy56uAD3gPgK%2FdrvxpIRDfd%2BlzFadu1TDYy4nXNS3d8MRjt1VmSwKRKcBapknguDJOu40Aj4wI4BxSn7xMsFfHFhdd2iYE%2BpWbX6Rk739o3887HB8%2F1loekOJonMBW%2Bd4hIL1y36Lz8WWAMuHJ8zNjg9bv37z6ncuIWGhD%2F6kWH2WCgXe4fOlMpKc7At1S%2B9%2BLuRvsN5PnO4MvMBP1zqA4B5X5Eh3PgwJwBcRTLw5ovpkyIiN2a%2B%2B6fz2QlTkMY2TNkqZ1L57KnREdWJhPQYHC3hVVjKOq%2FuGz%2B0f8IyxYkDQBoNQPWLgJB2cYEp5BpFx%2Bmh8qHHJuCbBmqxHhNxww8ukBlNTY6m8oYaDWghDU5m8D1Fu7tdlY68lP7bg4PZ8%2FUvbAA5ERBV7q4%2FOyVfDQqEC68BJOc4qcEK9H1%2ByvsqJ3OUwwSOXIp9bnIyP1MNqE2aGoSO9x3rScyRhnuLB34xcPZonr%2Bwud6DRxTzbsoX5l24FQLzrgHvNAUrCU%2BaU%2F3lw3%2BZzE9y35O%2BSNAiiLduDFx5ZzS5pklXDU0JqNDxeCyjGehKYuo4YOTvvx3%2BzwuTlVLVP50gQf703ehd2ORmBNicD3MD4A7DCOCFWLOrk%2F2l9%2FZPTZ%2B3oJZc4Q8y5FdSdXnddeGrvx9ftaV59941XZsi9EUiOp5lXL%2BiYJZq7zw98cqjI7nJii%2BGBqKoKaijnttEBsmMh8WmEHS%2FLNc%2BPjgzPVVFXaKB6pjBpxFRt387dtnuuNGM58p4u3Hb%2FZ2dG0K0n6A8yvLDK1IBXn%2B9h7LP%2FWpwqLcAZ0FoA8B7gz59sYg3SRJnLECR81Rdx4IBgBE96Kzp7HBM%2FhggVV8mvkr%2Fyg%2BT3dc06wGV37KAaGvg1r3tHRuD7Mf1R3SYiFuC4viZ0vO%2FPtfzWgqWBLGnDyNiCwIiFALpMIRFD%2FOuARTSg9KaznZNhaMbgn16HFZfHb7ux62t3XCuRDB7RqQFY%2BjcZCBHEmYVt0APZuJIxaz12uNjrz8xWi5aVfiKpUGgKEQgLupZNOLDvCMgBw25qzMJvKBArhCsq2jStjti1%2BxJhmN4rhTHAxe%2BGFZ0YAxE1VNm1myQbqiuWXbPwcxbj6dgBKo2HMq9fhcTiS7MXfhfCYQsGYbSuSIOJ2iQJnlWRzS1aNff03rpTVGdPkcAQJqOCHVAJYxJtCVw%2BwMdXZtFDKiO1tiiSNkoenGkSlZeGd2gKzrEgHMJySN%2FfuBFgqjbiIYAwH00EVi7Pg6syLLwBRfsiJ1bjJvua%2BvYFGbefuqeOoNbI4nArfd3rL4shO3I1s%2FbY19%2FqJLeFoadOFZzcIdF%2BtiATwaWWN4HEYDwLMurNjfv%2FnnXlpujRpTmD91aUL50V%2BTau1qjbUHqdwSzBBUyIMBGACwDc%2Bkb961YfXkYN1WKgAgIGg0PaoV3djzYlgi2QQWvB2hkkDIks4GHb86xHEReI%2BTPW6cOT%2Fe%2FX1QU6cpvxdfuaFJp1gA55g1gxblgUwC2Np0yD%2B4bG%2BwpQo0XhMub01llyayVc2bKsi0Iif%2F0ZXexVuMnf%2Fha%2Byp427jjLzRcVR46HEFCYapq16RYR%2F1AL9QWZs8AIwwwgjFkzIOPjA18MAM1ohlT8fPK%2FkbbqebNbKlahDzGQC4hgJ8%2BDAFEPSb1NUAC9AnvbiawFuMdRrIL90oochOrscoiYDEAa%2BF62Nu5dnsY2xZljw2YwHRSo3oyqsep5EI01zF7EXvgGBhMAsBNQvpCYGEAG2mOwb60cu0VYWIrbuJGDyqIoqjDqRNSm5PBNjjS4lhiBBxzHXO2UXLMXJk0g5hcLHUPrAUACxBDUzSw%2B4Gu7h1NyBGaXaLI3yvX67jZ0aRAMtAeUAys8FpdzBMAQ3j2QTR8QghlN4YwxPCzVZd8uRmaiB7eTFSk%2FjoXuDvpyWY9QoUGJgsG8ClCRODFENFv29u1YWczEIGeZ6b%2BVNRhKnJUK8dCsXVrOwwDPjMEsLYx1M8Q4IjB%2B9JMDvbWkZPv5ekdSxz4IdKGclNC694e2XZLsnt7zAiLLXGpAwCAL0ZDDP%2FK2bafLaQip2pyW3dw8%2FWJL301luwK%2BXaT%2Bppc0gAA4I4hYsibr%2B4b6XsnBzuMn304rq3b0bz1xgR8JxlNGjP2UweQvSUPAED8ERxDcdp65dHhjw9loQZYdawPbb4hvnFnNN4RhNcPEPWT9iBsLUsAAOKP4BgqxerBPw5D8fJdyc6NoWAYlynz9tiDlpfxY3kCABB%2FBMQAr6haFT5fJfwLhk4DzNUDVHI6F8sWwKeFpXgPfKb4IoDlhST9D7nRVCc88udWAAAAAElFTkSuQmCC%22%29%3Bbackground%2Dsize%3A%2040%2040%3Bfont%2Dweight%3A%20lighter%3Bfont%2Dsize%3A%2032px%3B%7Dh2%20%7B%20width%3A%20400px%3Bfont%2Dweight%3A%20500%3Bborder%2Dbottom%3A%201px%20solid%20%23000%3B%7Dh3%20%7Bfont%2Dweight%3A%20lighter%3Bfont%2Dsize%3A%2016px%3B%7D" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="container">
+    <h1 id="visual-studio-2019-keyboard-shortcuts">Visual Studio 2019 <br />Keyboard Shortcuts</h1>
+<h2 id="build">Build</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Build.BuildSolution</td>
+<td><strong>Ctrl+Shift+B</strong></td>
+</tr>
+<tr class="even">
+<td>Build.Cancel</td>
+<td><strong>Ctrl+Break</strong></td>
+</tr>
+<tr class="odd">
+<td>Build.Compile</td>
+<td><strong>Ctrl+F7</strong></td>
+</tr>
+<tr class="even">
+<td>Build.RunCodeAnalysisonSolution</td>
+<td><strong>Alt+F11</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="debug">Debug</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Debug.BreakatFunction</td>
+<td><strong>Ctrl+B</strong></td>
+</tr>
+<tr class="even">
+<td>Debug.BreakAll</td>
+<td><strong>Ctrl+Alt+Break</strong></td>
+</tr>
+<tr class="odd">
+<td>Debug.DeleteAllBreakpoints</td>
+<td><strong>Ctrl+Shift+F9</strong></td>
+</tr>
+<tr class="even">
+<td>Debug.Exceptions</td>
+<td><strong>Ctrl+Alt+E</strong></td>
+</tr>
+<tr class="odd">
+<td>Debug.QuickWatch</td>
+<td><strong>Ctrl+Alt+Q</strong><br /><br />or <strong>Shift+F9</strong></td>
+</tr>
+<tr class="even">
+<td>Debug.Restart</td>
+<td><strong>Ctrl+Shift+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Debug.RunToCursor</td>
+<td><strong>Ctrl+F10</strong></td>
+</tr>
+<tr class="even">
+<td>Debug.SetNextStatement</td>
+<td><strong>Ctrl+Shift+F10</strong></td>
+</tr>
+<tr class="odd">
+<td>Debug.Start</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="even">
+<td>Debug.StartWithoutDebugging</td>
+<td><strong>Ctrl+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Debug.StepInto</td>
+<td><strong>F11</strong></td>
+</tr>
+<tr class="even">
+<td>Debug.StepOut</td>
+<td><strong>Shift+F11</strong></td>
+</tr>
+<tr class="odd">
+<td>Debug.StepOver</td>
+<td><strong>F10</strong></td>
+</tr>
+<tr class="even">
+<td>Debug.StopDebugging</td>
+<td><strong>Shift+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Debug.ToggleBreakpoint</td>
+<td><strong>F9</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="edit">Edit</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Edit.CommentSelection</td>
+<td><strong>Ctrl+K</strong>, <strong>Ctrl+C</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.CompleteWord</td>
+<td><strong>Alt+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.Copy</td>
+<td><strong>Ctrl+C</strong><br /><br />or <strong>Ctrl+Insert</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.Cut</td>
+<td><strong>Ctrl+X</strong><br /><br />or <strong>Shift+Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.Delete</td>
+<td><strong>Delete</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.Find</td>
+<td><strong>Ctrl+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.FindAllReferences</td>
+<td><strong>Shift+F12</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.FindinFiles</td>
+<td><strong>Ctrl+Shift+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.FindNext</td>
+<td><strong>F3</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.FindNextSelected</td>
+<td><strong>Ctrl+F3</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.FormatDocument</td>
+<td><strong>Ctrl+K, Ctrl+D</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.FormatSelection</td>
+<td><strong>Ctrl+K, Ctrl+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.GoTo</td>
+<td><strong>Ctrl+G</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.GoToDeclaration</td>
+<td><strong>Ctrl+F12</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.GoToDefinition</td>
+<td><strong>F12</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.LineCut</td>
+<td><strong>Ctrl+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.LineDownExtendColumn</td>
+<td><strong>Shift+Alt+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.LineOpenAbove</td>
+<td><strong>Ctrl+Enter</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.ListMembers</td>
+<td><strong>Ctrl+J</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.NavigateTo</td>
+<td><strong>Ctrl+,</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.ParameterInfo</td>
+<td><strong>Ctrl+Shift+Spacebar</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.PeekDefinition</td>
+<td><strong>Alt+F12</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.Replace</td>
+<td><strong>Ctrl+H</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.SelectAll</td>
+<td><strong>Ctrl+A</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.SelectCurrentWord</td>
+<td><strong>Ctrl+W</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.SelectionCancel</td>
+<td><strong>Esc</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.SurroundWith</td>
+<td><strong>Ctrl+K, Ctrl+S</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.TabLeft</td>
+<td><strong>Shift+Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.ToggleAllOutlining</td>
+<td><strong>Ctrl+M, Ctrl+L</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.ToggleBookmark</td>
+<td><strong>Ctrl+K, Ctrl+K</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.ToggleCompletionMode</td>
+<td><strong>Ctrl+Alt+Space</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.ToggleOutliningExpansion</td>
+<td><strong>Ctrl+M, Ctrl+M</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.UncommentSelection</td>
+<td><strong>Ctrl+K, Ctrl+U</strong></td>
+</tr>
+<tr class="even">
+<td>Edit.WordDeleteToEnd</td>
+<td><strong>Ctrl+Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit.WordDeleteToStart</td>
+<td><strong>Ctrl+Backspace</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="file">File</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>File.Exit</td>
+<td><strong>Alt+F4</strong></td>
+</tr>
+<tr class="even">
+<td>File.NewFile</td>
+<td><strong>Ctrl+N</strong></td>
+</tr>
+<tr class="odd">
+<td>File.NewProject</td>
+<td><strong>Ctrl+Shift+N</strong></td>
+</tr>
+<tr class="even">
+<td>File.NewWebSite</td>
+<td><strong>Shift+Alt+N</strong></td>
+</tr>
+<tr class="odd">
+<td>File.OpenFile</td>
+<td><strong>Ctrl+O</strong></td>
+</tr>
+<tr class="even">
+<td>File.OpenProject</td>
+<td><strong>Ctrl+Shift+O</strong></td>
+</tr>
+<tr class="odd">
+<td>File.OpenWebSite</td>
+<td><strong>Shift+Alt+O</strong></td>
+</tr>
+<tr class="even">
+<td>File.Rename</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="odd">
+<td>File.SaveAll</td>
+<td><strong>Ctrl+Shift+S</strong></td>
+</tr>
+<tr class="even">
+<td>File.SaveSelectedItems</td>
+<td><strong>Ctrl+S</strong></td>
+</tr>
+<tr class="odd">
+<td>File.ViewinBrowser</td>
+<td><strong>Ctrl+Shift+W</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="project">Project</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Project.AddExistingItem</td>
+<td><strong>Shift+Alt+A</strong></td>
+</tr>
+<tr class="even">
+<td>Project.AddNewItem</td>
+<td><strong>Ctrl+Shift+A</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="refactor">Refactor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Refactor.ExtractMethod</td>
+<td><strong>Ctrl+R, Ctrl+M</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tools">Tools</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tools.AttachtoProcess</td>
+<td><strong>Ctrl+Alt+P</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="view">View</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>View.ClassView</td>
+<td><strong>Ctrl+Shift+C</strong></td>
+</tr>
+<tr class="even">
+<td>View.EditLabel</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="odd">
+<td>View.ErrorList</td>
+<td><strong>Ctrl+\, Ctrl+E</strong><br /><br />or <strong>Ctrl+\, E</strong></td>
+</tr>
+<tr class="even">
+<td>View.NavigateBackward</td>
+<td><strong>Ctrl+-</strong></td>
+</tr>
+<tr class="odd">
+<td>View.NavigateForward</td>
+<td><strong>Ctrl+Shift+-</strong></td>
+</tr>
+<tr class="even">
+<td>View.ObjectBrowser</td>
+<td><strong>Ctrl+Alt+J</strong></td>
+</tr>
+<tr class="odd">
+<td>View.Output</td>
+<td><strong>Ctrl+Alt+O</strong></td>
+</tr>
+<tr class="even">
+<td>View.PropertiesWindow</td>
+<td><strong>F4</strong></td>
+</tr>
+<tr class="odd">
+<td>View.Refresh</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="even">
+<td>View.ServerExplorer</td>
+<td><strong>Ctrl+Alt+S</strong></td>
+</tr>
+<tr class="odd">
+<td>View.ShowSmartTag</td>
+<td><strong>Ctrl+.</strong><br /><br />or <strong>Shift+Alt+F10</strong></td>
+</tr>
+<tr class="even">
+<td>View.SolutionExplorer</td>
+<td><strong>Ctrl+Alt+L</strong></td>
+</tr>
+<tr class="odd">
+<td>View.TfsTeamExplorer</td>
+<td><strong>Ctrl+\, Ctrl+M</strong></td>
+</tr>
+<tr class="even">
+<td>View.Toolbox</td>
+<td><strong>Ctrl+Alt+X</strong></td>
+</tr>
+<tr class="odd">
+<td>View.ViewCode</td>
+<td><strong>Enter</strong></td>
+</tr>
+<tr class="even">
+<td>View.ViewDesigner</td>
+<td><strong>Shift+F7</strong></td>
+</tr>
+</tbody>
+</table>    
+</div>
+</body>
+</html>
