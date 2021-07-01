@@ -6,17 +6,19 @@ body, html {
     font-size: 14px;
     background-color: #E6E6E6;
     color: #000;
-    width: 1400px;
-    height: 80%;
     padding: 20px;
 }
 
 .container {
     background-color: #fff;
     box-shadow: 0 0 14px rgba(0,0,0,0.6);
-    margin: 10px;
+    margin: auto;
     column-width: 400px;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 80%;
 }
 
 table {
