@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31429.26
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gen", "Gen", "{EEBD4500-AFDA-4C42-ADA7-C43325B00168}"
+	ProjectSection(SolutionItems) = preProject
+		Gen\all-shortcut-list.md = Gen\all-shortcut-list.md
+		Gen\build.ps1 = Gen\build.ps1
+		Gen\curated-shortcut-list.md = Gen\curated-shortcut-list.md
+		Gen\kb-template.html = Gen\kb-template.html
+		Gen\kb.css = Gen\kb.css
+		Gen\kb.html = Gen\kb.html
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParseMdTable", "ParseMdTable\ParseMdTable.csproj", "{89358ABA-3EED-473B-A2B4-4873B6866121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89358ABA-3EED-473B-A2B4-4873B6866121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89358ABA-3EED-473B-A2B4-4873B6866121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89358ABA-3EED-473B-A2B4-4873B6866121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89358ABA-3EED-473B-A2B4-4873B6866121}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {115EC40D-6586-4B3D-BA0C-97F60EF90D1A}
+	EndGlobalSection
+EndGlobal

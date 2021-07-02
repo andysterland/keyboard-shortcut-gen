@@ -1,0 +1,4371 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Visual Studio 2019 - Keyboard Shortcuts</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="data:text/css,body%2C%20html%20%7Bfont%2Dfamily%3A%20Segoe%20UI%2CSegoeUI%2CHelvetica%20Neue%2CHelvetica%2CArial%2Csans%2Dserif%3B%2Dwebkit%2Dfont%2Dsmoothing%3A%20antialiased%3Bfont%2Dweight%3A%20400%3Btext%2Drendering%3A%20optimizeLegibility%3Bfont%2Dsize%3A%2014px%3Bbackground%2Dcolor%3A%20%23E6E6E6%3Bcolor%3A%20%23000%3Bpadding%3A%2020px%3Bfont%2Dsize%3A%20small%3B%7D%2Econtainer%20%7Bbackground%2Dcolor%3A%20%23fff%3Bbox%2Dshadow%3A%200%200%2014px%20rgba%280%2C0%2C0%2C0%2E6%29%3Bmargin%3A%20auto%3Bcolumn%2Dwidth%3A%20400px%3Bpadding%3A%2010px%3Bmargin%2Dleft%3A%20auto%3Bmargin%2Dright%3A%20auto%3Bwidth%3A%201400px%3Bheight%3A%2080%25%3B%7Dtable%20%7Bmargin%2Dbottom%3A%2010px%3Bmargin%2Dleft%3A%2010px%3Bwidth%3A%20400px%3Bborder%3A%200%3B%20border%2Dspacing%3A%200%3Bpadding%3A%200%3Bwhite%2Dspace%3A%20nowrap%3B%7Dthead%20%7Bdisplay%3Anone%3B%7Dtd%7Bpadding%3A%202px%3B%7D%2Eeven%20%7Bbackground%2Dcolor%3A%20%23F2F2F2%3B%7Dh1%20%7Bpadding%2Dleft%3A%2080px%3Bbackground%2Dposition%3A%200%2012px%3Bbackground%2Drepeat%3A%20no%2Drepeat%3Bbackground%2Dimage%3A%20url%28%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC%2BaJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAA17SURBVGhD7Vh5bBzVGZ9zd3btPX3EjnM45ChJICFASVsoV1ALKBKVqqqRWiRaVQWESEul%2Fte%2FkFpVPYRUIEVQVVW4IrUCiigl3AqkVBUJuCHGOW3Hd%2Bw9vd5jZnem3%2FFmdtZXggR2kfjtzJt3fMfve9e8WdlxHOnzDEU8P7f4IoDlxv%2FLGvBoyLLMmYvE8gcABAB21ZEVWaYJwTFcZCTLGQC7htQq1c6%2BOC3ZTusVocgaXQ9DKCKGC4axbAGwX9u2rZna6Rfymb6KDIQVKdSuJbcEk5uD4TZNVjmExQZkeQLw2FcKtTPA%2FgSwR0AM9JO0sBJdq7dsM6KXBPQQDshCYSxDAHX201Xs%2B5OmTBSYmxcDQNGkYEJNbjVatgZD7bpCgaCML4ylDsDP%2FtRzucwpU3IEIbhnxSBqJUk15MiaQOsOI7ExqAbqAwJY0gA89mah2vfXXPa0CUUm0hiDKGCRaxmKVI1Wd%2FygvSkR8GJYuheZv%2B97D2TTpyrcddx%2FXj9ynQNP%2FIlWQM22%2B8dSvScmzHLV3%2BlLFIDHvpxH9pkz2PfAsCEG5O09BCALxZJp9Z4bG57K2vDG8DcvTQBAE%2BCyzwj2SI3YEh9MvAy1chNc6UKhp%2F9culBCDR9IcOEAhJQPouETghUhBfbHn81kzgJ7Ycy1WC9CDlNRC9Omdm7y%2FLHB4ZJZZQnb1QGw2jwBoBUC9Fl6xJwchMkqICQuGqwCdkpZ6yPBnvkJW%2FCAjBgHynML3GXLPD40eHp8ooascafFdlRAAQ%2BzAyCeRH3UPPxM7h%2B%2FTx18ON33TqFWhbknIEQvBJYU7GHen60gCWKJDa4dzx5VUqvjZAr598%2BcmMjkJEeRHNqNaPZTewMatlHIg7%2FsePX4mzP9R8qVAsSOraomb7oudPUdkWDYfbm72%2FBC8LM%2FdiCT7ef9HuowYe1Z%2Bz1lAc5QauzEyJDk6Dru%2BZqiqIor1ZwM7HlwS8vKJoXfauL4RwCXgMFj08%2F%2FcqLvULEyI9gDk6plf%2FzWzKuPpnMTFosBWGtesACyz1n%2FfQZnDot7SqIofuwGfzDpPxzo%2FbD%2FZK0GZ1OVJgj0PcvQCMzx2zCFoLmQKQ%2BdHKpaQJSr6KbVM3ai8uJvJgd6ijWYlfPZYnAToJixep5Mp%2FtxCZENt5WssjY1YA7uQmnm7ePvnZ0YVWXseJnZU5Nt8%2B5JhhohAkC7LsyyOT48YlkVNk8%2F0pWkYrb2%2Br700ZdyZhleLPOEwTWAYtrqeTqdHsCZg57FT8jQk01SqyxZoeIbx97NFKZ1xUD2ODV42sAkZ2nsxEZviNkjgIksmRVrbHjIFDFgnduK0%2Bn9F%2FJvPpGaTlmzYuAMpIJ9fwWL1ARA774Y3Iyk6HLHTr3leses2poShBkvwzHa7X5WY%2FgM1NEQAIDaMe6aaY8MDVTMEjohl5RiMwidPVJ8%2BaHJkb6SFwMDisD%2Bg6fSqQFiT%2FLolhWRjksBpCUnEFUu2R1ac3NID6qqElAUXZGQPSxoHAQHdk8QZwN4eYY8zA7AB8W2pJHRfiUgzh6c0I1petg6%2BMjkR2%2FkLROnE0cC8%2F7ok6n0AJ5zyBVGxWpcwwXORFfrm%2Fc0t28zVE3FrUaGnQX2Fry8mQMpzxxxYV0DFgkA%2BkHVFO3y27VIu0Lm6KYckoCX63Tt8LPpQ09OzeSsWq02kzKP7k%2Bl4cUnJIU%2FV0PckADDjquCm%2FdEoqsCKgFI08IV3c%2FzB6NHKwLzrLn5A2B1vGRV0VtW61%2B%2FqynajpKsjjZdLlXTPv52%2FqWHRkc%2BmjmyH2cOirgC3sPzCw81KK2%2FrWnD7kgopmuaBuxhU8e%2BB%2BoQmbt82Yu4CK4ZYYqx2AgAsGMUtWVV4IYfRSJtsDGzOtsW1u2anRksf%2FBUBvuejLsi9Qw%2BKWMk1G13Rrt2hgNBl7r7SuK1y8u3rsIXmaKLCj7MDaDe%2F3RJ6EHFGHbdG42tUNmEYI%2BjahsBaUXCqOHLCl3AA4AJ5fjGVHaSm%2FSr7o4n1hnU77PYAwR7kEUVAjrwJg8BW31YdATQFBoGX%2BAvuTJ48z3xeKeGxoV9JxiQ2%2BIBuya4snkvBmYON%2ByV3TeGt38vForqyL2RPUqDIyAjli8ecBBooO6NwiBZH%2BYLgLuezaJhmkbkMrkysOtuiEFlg0Fdao3qyJ4tsy8kLDxx0YgrW78TWX9LsxagnidTPuoCGAC8g1iRL7blXlTPzzoWHQEARoJuwBn7TkAM9yYgBmDfwuzZuuAsvHIG1BPr9O13xjouC3nrlakDSMoDeoILjnzYOQtCSHuYNwBhiy56uAD3gPgK%2FdrvxpIRDfd%2BlzFadu1TDYy4nXNS3d8MRjt1VmSwKRKcBapknguDJOu40Aj4wI4BxSn7xMsFfHFhdd2iYE%2BpWbX6Rk739o3887HB8%2F1loekOJonMBW%2Bd4hIL1y36Lz8WWAMuHJ8zNjg9bv37z6ncuIWGhD%2F6kWH2WCgXe4fOlMpKc7At1S%2B9%2BLuRvsN5PnO4MvMBP1zqA4B5X5Eh3PgwJwBcRTLw5ovpkyIiN2a%2B%2B6fz2QlTkMY2TNkqZ1L57KnREdWJhPQYHC3hVVjKOq%2FuGz%2B0f8IyxYkDQBoNQPWLgJB2cYEp5BpFx%2Bmh8qHHJuCbBmqxHhNxww8ukBlNTY6m8oYaDWghDU5m8D1Fu7tdlY68lP7bg4PZ8%2FUvbAA5ERBV7q4%2FOyVfDQqEC68BJOc4qcEK9H1%2ByvsqJ3OUwwSOXIp9bnIyP1MNqE2aGoSO9x3rScyRhnuLB34xcPZonr%2Bwud6DRxTzbsoX5l24FQLzrgHvNAUrCU%2BaU%2F3lw3%2BZzE9y35O%2BSNAiiLduDFx5ZzS5pklXDU0JqNDxeCyjGehKYuo4YOTvvx3%2BzwuTlVLVP50gQf703ehd2ORmBNicD3MD4A7DCOCFWLOrk%2F2l9%2FZPTZ%2B3oJZc4Q8y5FdSdXnddeGrvx9ftaV59941XZsi9EUiOp5lXL%2BiYJZq7zw98cqjI7nJii%2BGBqKoKaijnttEBsmMh8WmEHS%2FLNc%2BPjgzPVVFXaKB6pjBpxFRt387dtnuuNGM58p4u3Hb%2FZ2dG0K0n6A8yvLDK1IBXn%2B9h7LP%2FWpwqLcAZ0FoA8B7gz59sYg3SRJnLECR81Rdx4IBgBE96Kzp7HBM%2FhggVV8mvkr%2Fyg%2BT3dc06wGV37KAaGvg1r3tHRuD7Mf1R3SYiFuC4viZ0vO%2FPtfzWgqWBLGnDyNiCwIiFALpMIRFD%2FOuARTSg9KaznZNhaMbgn16HFZfHb7ux62t3XCuRDB7RqQFY%2BjcZCBHEmYVt0APZuJIxaz12uNjrz8xWi5aVfiKpUGgKEQgLupZNOLDvCMgBw25qzMJvKBArhCsq2jStjti1%2BxJhmN4rhTHAxe%2BGFZ0YAxE1VNm1myQbqiuWXbPwcxbj6dgBKo2HMq9fhcTiS7MXfhfCYQsGYbSuSIOJ2iQJnlWRzS1aNff03rpTVGdPkcAQJqOCHVAJYxJtCVw%2BwMdXZtFDKiO1tiiSNkoenGkSlZeGd2gKzrEgHMJySN%2FfuBFgqjbiIYAwH00EVi7Pg6syLLwBRfsiJ1bjJvua%2BvYFGbefuqeOoNbI4nArfd3rL4shO3I1s%2FbY19%2FqJLeFoadOFZzcIdF%2BtiATwaWWN4HEYDwLMurNjfv%2FnnXlpujRpTmD91aUL50V%2BTau1qjbUHqdwSzBBUyIMBGACwDc%2Bkb961YfXkYN1WKgAgIGg0PaoV3djzYlgi2QQWvB2hkkDIks4GHb86xHEReI%2BTPW6cOT%2Fe%2FX1QU6cpvxdfuaFJp1gA55g1gxblgUwC2Np0yD%2B4bG%2BwpQo0XhMub01llyayVc2bKsi0Iif%2F0ZXexVuMnf%2Fha%2Byp427jjLzRcVR46HEFCYapq16RYR%2F1AL9QWZs8AIwwwgjFkzIOPjA18MAM1ohlT8fPK%2FkbbqebNbKlahDzGQC4hgJ8%2BDAFEPSb1NUAC9AnvbiawFuMdRrIL90oochOrscoiYDEAa%2BF62Nu5dnsY2xZljw2YwHRSo3oyqsep5EI01zF7EXvgGBhMAsBNQvpCYGEAG2mOwb60cu0VYWIrbuJGDyqIoqjDqRNSm5PBNjjS4lhiBBxzHXO2UXLMXJk0g5hcLHUPrAUACxBDUzSw%2B4Gu7h1NyBGaXaLI3yvX67jZ0aRAMtAeUAys8FpdzBMAQ3j2QTR8QghlN4YwxPCzVZd8uRmaiB7eTFSk%2FjoXuDvpyWY9QoUGJgsG8ClCRODFENFv29u1YWczEIGeZ6b%2BVNRhKnJUK8dCsXVrOwwDPjMEsLYx1M8Q4IjB%2B9JMDvbWkZPv5ekdSxz4IdKGclNC694e2XZLsnt7zAiLLXGpAwCAL0ZDDP%2FK2bafLaQip2pyW3dw8%2FWJL301luwK%2BXaT%2Bppc0gAA4I4hYsibr%2B4b6XsnBzuMn304rq3b0bz1xgR8JxlNGjP2UweQvSUPAED8ERxDcdp65dHhjw9loQZYdawPbb4hvnFnNN4RhNcPEPWT9iBsLUsAAOKP4BgqxerBPw5D8fJdyc6NoWAYlynz9tiDlpfxY3kCABB%2FBMQAr6haFT5fJfwLhk4DzNUDVHI6F8sWwKeFpXgPfKb4IoDlhST9D7nRVCc88udWAAAAAElFTkSuQmCC%22%29%3Bbackground%2Dsize%3A%2040%2040%3Bfont%2Dweight%3A%20lighter%3Bfont%2Dsize%3A%2032px%3B%7Dh2%20%7B%20width%3A%20400px%3Bfont%2Dweight%3A%20500%3Bborder%2Dbottom%3A%201px%20solid%20%23000%3B%7Dh3%20%7Bfont%2Dweight%3A%20lighter%3Bfont%2Dsize%3A%2016px%3B%7D" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="container">
+    <h1 id="visual-studio-2019-keyboard-shortcuts">Visual Studio 2019 Keyboard Shortcuts</h1>
+<h2 id="build-popular-shortcuts">Build: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Build solution</td>
+<td><strong>Ctrl+Shift+B</strong></td>
+</tr>
+<tr class="even">
+<td>Cancel</td>
+<td><strong>Ctrl+Break</strong></td>
+</tr>
+<tr class="odd">
+<td>Compile</td>
+<td><strong>Ctrl+F7</strong></td>
+</tr>
+<tr class="even">
+<td>Run code analysison solution</td>
+<td><strong>Alt+F11</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="debug-popular-shortcuts">Debug: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Breakat function</td>
+<td><strong>Ctrl+B</strong></td>
+</tr>
+<tr class="even">
+<td>Break all</td>
+<td><strong>Ctrl+Alt+Break</strong></td>
+</tr>
+<tr class="odd">
+<td>Delete all breakpoints</td>
+<td><strong>Ctrl+Shift+F9</strong></td>
+</tr>
+<tr class="even">
+<td>Exceptions</td>
+<td><strong>Ctrl+Alt+E</strong></td>
+</tr>
+<tr class="odd">
+<td>Quick watch</td>
+<td><strong>Ctrl+Alt+Q</strong><br /><br />or <strong>Shift+F9</strong></td>
+</tr>
+<tr class="even">
+<td>Restart</td>
+<td><strong>Ctrl+Shift+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Run to cursor</td>
+<td><strong>Ctrl+F10</strong></td>
+</tr>
+<tr class="even">
+<td>Set next statement</td>
+<td><strong>Ctrl+Shift+F10</strong></td>
+</tr>
+<tr class="odd">
+<td>Start</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="even">
+<td>Start without debugging</td>
+<td><strong>Ctrl+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Step into</td>
+<td><strong>F11</strong></td>
+</tr>
+<tr class="even">
+<td>Step out</td>
+<td><strong>Shift+F11</strong></td>
+</tr>
+<tr class="odd">
+<td>Step over</td>
+<td><strong>F10</strong></td>
+</tr>
+<tr class="even">
+<td>Stop debugging</td>
+<td><strong>Shift+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle breakpoint</td>
+<td><strong>F9</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="edit-popular-shortcuts">Edit: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Break line</td>
+<td><strong>Enter</strong></td>
+</tr>
+<tr class="even">
+<td>Collapse to definitions</td>
+<td><strong>Ctrl+M</strong>, <strong>Ctrl+O</strong></td>
+</tr>
+<tr class="odd">
+<td>Comment selection</td>
+<td><strong>Ctrl+K</strong>, <strong>Ctrl+C</strong></td>
+</tr>
+<tr class="even">
+<td>Complete word</td>
+<td><strong>Alt+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Copy</td>
+<td><strong>Ctrl+C</strong><br /><br />or <strong>Ctrl+Insert</strong></td>
+</tr>
+<tr class="even">
+<td>Cut</td>
+<td><strong>Ctrl+X</strong><br /><br />or <strong>Shift+Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>Delete</td>
+<td><strong>Delete</strong></td>
+</tr>
+<tr class="even">
+<td>Find</td>
+<td><strong>Ctrl+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Find all references</td>
+<td><strong>Shift+F12</strong></td>
+</tr>
+<tr class="even">
+<td>Findin files</td>
+<td><strong>Ctrl+Shift+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Find next</td>
+<td><strong>F3</strong></td>
+</tr>
+<tr class="even">
+<td>Find next selected</td>
+<td><strong>Ctrl+F3</strong></td>
+</tr>
+<tr class="odd">
+<td>Format document</td>
+<td><strong>Ctrl+K, Ctrl+D</strong></td>
+</tr>
+<tr class="even">
+<td>Format selection</td>
+<td><strong>Ctrl+K, Ctrl+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to</td>
+<td><strong>Ctrl+G</strong></td>
+</tr>
+<tr class="even">
+<td>Go to declaration</td>
+<td><strong>Ctrl+F12</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to definition</td>
+<td><strong>F12</strong></td>
+</tr>
+<tr class="even">
+<td>Go to find combo</td>
+<td><strong>Ctrl+D</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to next location</td>
+<td><strong>F8</strong></td>
+</tr>
+<tr class="even">
+<td>Insert snippet</td>
+<td><strong>Ctrl+K</strong>, <strong>Ctrl+X</strong></td>
+</tr>
+<tr class="odd">
+<td>Insert tab</td>
+<td><strong>Tab</strong></td>
+</tr>
+<tr class="even">
+<td>Line cut</td>
+<td><strong>Ctrl+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Line down extend column</td>
+<td><strong>Shift+Alt+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Line open above</td>
+<td><strong>Ctrl+Enter</strong></td>
+</tr>
+<tr class="odd">
+<td>List members</td>
+<td><strong>Ctrl+J</strong></td>
+</tr>
+<tr class="even">
+<td>Navigate to</td>
+<td><strong>Ctrl+,</strong></td>
+</tr>
+<tr class="odd">
+<td>Open file</td>
+<td><strong>Ctrl+Shift+G</strong></td>
+</tr>
+<tr class="even">
+<td>Overtype mode</td>
+<td><strong>Insert</strong></td>
+</tr>
+<tr class="odd">
+<td>Parameter info</td>
+<td><strong>Ctrl+Shift+Spacebar</strong></td>
+</tr>
+<tr class="even">
+<td>Paste</td>
+<td><strong>Ctrl+V</strong><br /><br />or <strong>Shift+Insert</strong></td>
+</tr>
+<tr class="odd">
+<td>Peek definition</td>
+<td><strong>Alt+F12</strong></td>
+</tr>
+<tr class="even">
+<td>Redo</td>
+<td><strong>Ctrl+Y</strong><br /><br />or <strong>Shift+Alt+Backspace</strong><br /><br />or <strong>Ctrl+Shift+Z</strong></td>
+</tr>
+<tr class="odd">
+<td>Replace</td>
+<td><strong>Ctrl+H</strong></td>
+</tr>
+<tr class="even">
+<td>Select all</td>
+<td><strong>Ctrl+A</strong></td>
+</tr>
+<tr class="odd">
+<td>Select current word</td>
+<td><strong>Ctrl+W</strong></td>
+</tr>
+<tr class="even">
+<td>Selection cancel</td>
+<td><strong>Esc</strong></td>
+</tr>
+<tr class="odd">
+<td>Surround with</td>
+<td><strong>Ctrl+K, Ctrl+S</strong></td>
+</tr>
+<tr class="even">
+<td>Tab left</td>
+<td><strong>Shift+Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle all outlining</td>
+<td><strong>Ctrl+M, Ctrl+L</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle bookmark</td>
+<td><strong>Ctrl+K, Ctrl+K</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle completion mode</td>
+<td><strong>Ctrl+Alt+Space</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle outlining expansion</td>
+<td><strong>Ctrl+M, Ctrl+M</strong></td>
+</tr>
+<tr class="odd">
+<td>Uncomment selection</td>
+<td><strong>Ctrl+K, Ctrl+U</strong></td>
+</tr>
+<tr class="even">
+<td>Undo</td>
+<td><strong>Ctrl+Z</strong><br /><br />or <strong>Alt+Backspace</strong></td>
+</tr>
+<tr class="odd">
+<td>Word delete to end</td>
+<td><strong>Ctrl+Delete</strong></td>
+</tr>
+<tr class="even">
+<td>Word delete to start</td>
+<td><strong>Ctrl+Backspace</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="file-popular-shortcuts">File: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Exit</td>
+<td><strong>Alt+F4</strong></td>
+</tr>
+<tr class="even">
+<td>New file</td>
+<td><strong>Ctrl+N</strong></td>
+</tr>
+<tr class="odd">
+<td>New project</td>
+<td><strong>Ctrl+Shift+N</strong></td>
+</tr>
+<tr class="even">
+<td>New web site</td>
+<td><strong>Shift+Alt+N</strong></td>
+</tr>
+<tr class="odd">
+<td>Open file</td>
+<td><strong>Ctrl+O</strong></td>
+</tr>
+<tr class="even">
+<td>Open project</td>
+<td><strong>Ctrl+Shift+O</strong></td>
+</tr>
+<tr class="odd">
+<td>Open web site</td>
+<td><strong>Shift+Alt+O</strong></td>
+</tr>
+<tr class="even">
+<td>Rename</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="odd">
+<td>Save all</td>
+<td><strong>Ctrl+Shift+S</strong></td>
+</tr>
+<tr class="even">
+<td>Save selected items</td>
+<td><strong>Ctrl+S</strong></td>
+</tr>
+<tr class="odd">
+<td>Viewin browser</td>
+<td><strong>Ctrl+Shift+W</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="project-popular-shortcuts">Project: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Add existing item</td>
+<td><strong>Shift+Alt+A</strong></td>
+</tr>
+<tr class="even">
+<td>Add new item</td>
+<td><strong>Ctrl+Shift+A</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="refactor-popular-shortcuts">Refactor: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Extract method</td>
+<td><strong>Ctrl+R, Ctrl+M</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tools-popular-shortcuts">Tools: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Attachto process</td>
+<td><strong>Ctrl+Alt+P</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="view-popular-shortcuts">View: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Class view</td>
+<td><strong>Ctrl+Shift+C</strong></td>
+</tr>
+<tr class="even">
+<td>Edit label</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="odd">
+<td>Error list</td>
+<td><strong>Ctrl+\, Ctrl+E</strong><br /><br />or <strong>Ctrl+\, E</strong></td>
+</tr>
+<tr class="even">
+<td>Navigate backward</td>
+<td><strong>Ctrl+-</strong></td>
+</tr>
+<tr class="odd">
+<td>Navigate forward</td>
+<td><strong>Ctrl+Shift+-</strong></td>
+</tr>
+<tr class="even">
+<td>Object browser</td>
+<td><strong>Ctrl+Alt+J</strong></td>
+</tr>
+<tr class="odd">
+<td>Output</td>
+<td><strong>Ctrl+Alt+O</strong></td>
+</tr>
+<tr class="even">
+<td>Properties window</td>
+<td><strong>F4</strong></td>
+</tr>
+<tr class="odd">
+<td>Refresh</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="even">
+<td>Server explorer</td>
+<td><strong>Ctrl+Alt+S</strong></td>
+</tr>
+<tr class="odd">
+<td>Show smart tag</td>
+<td><strong>Ctrl+.</strong><br /><br />or <strong>Shift+Alt+F10</strong></td>
+</tr>
+<tr class="even">
+<td>Solution explorer</td>
+<td><strong>Ctrl+Alt+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Tfs team explorer</td>
+<td><strong>Ctrl+\, Ctrl+M</strong></td>
+</tr>
+<tr class="even">
+<td>Toolbox</td>
+<td><strong>Ctrl+Alt+X</strong></td>
+</tr>
+<tr class="odd">
+<td>View code</td>
+<td><strong>Enter</strong></td>
+</tr>
+<tr class="even">
+<td>View designer</td>
+<td><strong>Shift+F7</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="window-popular-shortcuts">Window: popular shortcuts</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Activate document window</td>
+<td><strong>Esc</strong></td>
+</tr>
+<tr class="even">
+<td>Close document window</td>
+<td><strong>Ctrl+F4</strong></td>
+</tr>
+<tr class="odd">
+<td>Next document window</td>
+<td><strong>Ctrl+F6</strong></td>
+</tr>
+<tr class="even">
+<td>Next document window nav</td>
+<td><strong>Ctrl+Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Next split pane</td>
+<td><strong>F6</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="analyze"><a name="bkmk_analyze"></a> Analyze</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Navigate backward</td>
+<td><strong>Shift+Alt+3</strong></td>
+</tr>
+<tr class="even">
+<td>Navigate forward</td>
+<td><strong>Shift+Alt+4</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="architecture"><a name="bkmk_architecture"></a> Architecture</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>New diagram</td>
+<td><strong>Ctrl+\, Ctrl+N</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="build"><a name="bkmk_build"></a> Build</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Build selection</td>
+<td><strong>Ctrl+B</strong> (Visual Studio 2019)</td>
+</tr>
+<tr class="even">
+<td>Build solution</td>
+<td><strong>Ctrl+Shift+B</strong></td>
+</tr>
+<tr class="odd">
+<td>Cancel</td>
+<td><strong>Ctrl+Break</strong></td>
+</tr>
+<tr class="even">
+<td>Compile</td>
+<td><strong>Ctrl+F7</strong></td>
+</tr>
+<tr class="odd">
+<td>Run code analysison solution</td>
+<td><strong>Alt+F11</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="class-view-context-menus"><a name="bkmk_classview"></a> Class View context menus</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Properties</td>
+<td><strong>Alt+Enter</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="debug"><a name="bkmk_debug"></a> Debug</h2>
+<table>
+<colgroup>
+<col style="width: 93%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Apply code changes</td>
+<td><strong>Alt+F10</strong></td>
+</tr>
+<tr class="even">
+<td>Attachto process</td>
+<td><strong>Ctrl+Alt+P</strong></td>
+</tr>
+<tr class="odd">
+<td>Autos</td>
+<td><strong>Ctrl+Alt+V, A</strong></td>
+</tr>
+<tr class="even">
+<td>Break all</td>
+<td><strong>Ctrl+Alt+Break</strong></td>
+</tr>
+<tr class="odd">
+<td>Breakpoints</td>
+<td><strong>Ctrl+Alt+B</strong></td>
+</tr>
+<tr class="even">
+<td>Call stack</td>
+<td><strong>Ctrl+Alt+C</strong></td>
+</tr>
+<tr class="odd">
+<td>Delete all breakpoints</td>
+<td><strong>Ctrl+Shift+F9</strong></td>
+</tr>
+<tr class="even">
+<td>Launch</td>
+<td><strong>Alt+F2</strong></td>
+</tr>
+<tr class="odd">
+<td>Disassembly</td>
+<td><strong>Ctrl+Alt+D</strong></td>
+</tr>
+<tr class="even">
+<td>Dom explorer</td>
+<td><strong>Ctrl+Alt+V, D</strong></td>
+</tr>
+<tr class="odd">
+<td>Enable breakpoint</td>
+<td><strong>Ctrl+F9</strong></td>
+</tr>
+<tr class="even">
+<td>Exceptions</td>
+<td><strong>Ctrl+Alt+E</strong></td>
+</tr>
+<tr class="odd">
+<td>Function breakpoint</td>
+<td><strong>Ctrl+K, B</strong> (Visual Studio 2019)<br /><strong>Ctrl</strong>+<strong>B</strong> (Visual Studio 2017)</td>
+</tr>
+<tr class="even">
+<td>Go to previous callor intelli trace event</td>
+<td><strong>Ctrl+Shift+F11</strong></td>
+</tr>
+<tr class="odd">
+<td>Start diagnostics</td>
+<td><strong>Alt+F5</strong></td>
+</tr>
+<tr class="even">
+<td>Immediate</td>
+<td><strong>Ctrl+Alt+I</strong></td>
+</tr>
+<tr class="odd">
+<td>Intelli trace calls</td>
+<td><strong>Ctrl+Alt+Y, T</strong></td>
+</tr>
+<tr class="even">
+<td>Intelli trace events</td>
+<td><strong>Ctrl+Alt+Y, F</strong></td>
+</tr>
+<tr class="odd">
+<td>Java script console</td>
+<td><strong>Ctrl+Alt+V, C</strong></td>
+</tr>
+<tr class="even">
+<td>Locals</td>
+<td><strong>Ctrl+Alt+V, L</strong></td>
+</tr>
+<tr class="odd">
+<td>Process combo</td>
+<td><strong>Ctrl+5</strong></td>
+</tr>
+<tr class="even">
+<td>Stack frame combo</td>
+<td><strong>Ctrl+7</strong></td>
+</tr>
+<tr class="odd">
+<td>Thread combo</td>
+<td><strong>Ctrl+6</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle current thread flagged state</td>
+<td><strong>Ctrl+8</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle flagged threads</td>
+<td><strong>Ctrl+9</strong></td>
+</tr>
+<tr class="even">
+<td>Memory 1</td>
+<td><strong>Ctrl+Alt+M, 1</strong></td>
+</tr>
+<tr class="odd">
+<td>Memory 2</td>
+<td><strong>Ctrl+Alt+M, 2</strong></td>
+</tr>
+<tr class="even">
+<td>Memory 3</td>
+<td><strong>Ctrl+Alt+M, 3</strong></td>
+</tr>
+<tr class="odd">
+<td>Memory 4</td>
+<td><strong>Ctrl+Alt+M, 4</strong></td>
+</tr>
+<tr class="even">
+<td>Modules</td>
+<td><strong>Ctrl+Alt+U</strong></td>
+</tr>
+<tr class="odd">
+<td>Parallel stacks</td>
+<td><strong>Ctrl+Shift+D, S</strong></td>
+</tr>
+<tr class="even">
+<td>Parallel watch 1</td>
+<td><strong>Ctrl+Shift+D, 1</strong></td>
+</tr>
+<tr class="odd">
+<td>Parallel watch 2</td>
+<td><strong>Ctrl+Shift+D, 2</strong></td>
+</tr>
+<tr class="even">
+<td>Parallel watch 3</td>
+<td><strong>Ctrl+Shift+D, 3</strong></td>
+</tr>
+<tr class="odd">
+<td>Parallel watch 4</td>
+<td><strong>Ctrl+Shift+D, 4</strong></td>
+</tr>
+<tr class="even">
+<td>Processes</td>
+<td><strong>Ctrl+Alt+Z</strong></td>
+</tr>
+<tr class="odd">
+<td>Quick watch</td>
+<td><strong>Shift+F9</strong> or <strong>Ctrl+Alt+Q</strong></td>
+</tr>
+<tr class="even">
+<td>Reattachto process</td>
+<td><strong>Shift+Alt+P</strong></td>
+</tr>
+<tr class="odd">
+<td>Refresh windowsapp</td>
+<td><strong>Ctrl+Shift+R</strong></td>
+</tr>
+<tr class="even">
+<td>Registers</td>
+<td><strong>Ctrl+Alt+G</strong></td>
+</tr>
+<tr class="odd">
+<td>Restart</td>
+<td><strong>Ctrl+Shift+F5</strong></td>
+</tr>
+<tr class="even">
+<td>Run to cursor</td>
+<td><strong>Ctrl+F10</strong></td>
+</tr>
+<tr class="odd">
+<td>Set next statement</td>
+<td><strong>Ctrl+Shift+F10</strong></td>
+</tr>
+<tr class="even">
+<td>Show call stackon code map</td>
+<td><strong>Ctrl+Shift+`</strong></td>
+</tr>
+<tr class="odd">
+<td>Show next statement</td>
+<td><strong>Alt+Num</strong> *</td>
+</tr>
+<tr class="even">
+<td>Start</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Start windows phone application analysis</td>
+<td><strong>Alt+F1</strong></td>
+</tr>
+<tr class="even">
+<td>Start without debugging</td>
+<td><strong>Ctrl+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Step into</td>
+<td><strong>F11</strong></td>
+</tr>
+<tr class="even">
+<td>Step into current process</td>
+<td><strong>Ctrl+Alt+F11</strong></td>
+</tr>
+<tr class="odd">
+<td>Step into specific</td>
+<td><strong>Shift+Alt+F11</strong></td>
+</tr>
+<tr class="even">
+<td>Step out</td>
+<td><strong>Shift+F11</strong></td>
+</tr>
+<tr class="odd">
+<td>Step out current process</td>
+<td><strong>Ctrl+Shift+Alt+F11</strong></td>
+</tr>
+<tr class="even">
+<td>Step over</td>
+<td><strong>F10</strong> (When debugging: Performs a step over action)</td>
+</tr>
+<tr class="odd">
+<td>Step over</td>
+<td><strong>F10</strong> (When not debugging: Starts debugging and stops on the first line of user code)</td>
+</tr>
+<tr class="even">
+<td>Step over current process</td>
+<td><strong>Ctrl+Alt+F10</strong></td>
+</tr>
+<tr class="odd">
+<td>Stop debugging</td>
+<td><strong>Shift+F5</strong></td>
+</tr>
+<tr class="even">
+<td>Stop performance analysis</td>
+<td><strong>Shift+Alt+F2</strong></td>
+</tr>
+<tr class="odd">
+<td>Tasks</td>
+<td><strong>Ctrl+Shift+D, K</strong></td>
+</tr>
+<tr class="even">
+<td>Threads</td>
+<td><strong>Ctrl+Alt+H</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle breakpoint</td>
+<td><strong>F9</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle disassembly</td>
+<td><strong>Ctrl+F11</strong></td>
+</tr>
+<tr class="odd">
+<td>Watch 1</td>
+<td><strong>Ctrl+Alt+W, 1</strong></td>
+</tr>
+<tr class="even">
+<td>Watch 2</td>
+<td><strong>Ctrl+Alt+W, 2</strong></td>
+</tr>
+<tr class="odd">
+<td>Watch 3</td>
+<td><strong>Ctrl+Alt+W, 3</strong></td>
+</tr>
+<tr class="even">
+<td>Watch 4</td>
+<td><strong>Ctrl+Alt+W, 4</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="debugger-context-menus"><a name="bkmk_debugger"></a> Debugger context menus</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Delete</td>
+<td><strong>Alt+F9, D</strong></td>
+</tr>
+<tr class="even">
+<td>Go to disassembly</td>
+<td><strong>Alt+F9, A</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to source code</td>
+<td><strong>Alt+F9, S</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="diagnostics-hub"><a name="bkmk_diagnostics"></a> Diagnostics Hub</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Stop collection</td>
+<td><strong>Ctrl+Alt+F2</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="edit"><a name="bkmk_edit"></a> Edit</h2>
+<table>
+<colgroup>
+<col style="width: 93%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Copy</td>
+<td><strong>Ctrl+C</strong><br /><br /> or<br /><br /> <strong>Ctrl+Ins</strong></td>
+</tr>
+<tr class="even">
+<td>Cut</td>
+<td><strong>Ctrl+X</strong><br /><br /> or<br /><br /> <strong>Shift+Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>Cycle clipboard ring</td>
+<td><strong>Ctrl+Shift+V</strong><br /><br /> or<br /><br /> <strong>Ctrl+Shift+Ins</strong></td>
+</tr>
+<tr class="even">
+<td>Delete</td>
+<td><strong>Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>Duplicate</td>
+<td><strong>Ctrl+D</strong></td>
+</tr>
+<tr class="even">
+<td>Find</td>
+<td><strong>Ctrl+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Find all references</td>
+<td><strong>Shift+F12</strong></td>
+</tr>
+<tr class="even">
+<td>Findin files</td>
+<td><strong>Ctrl+Shift+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Find next</td>
+<td><strong>F3</strong></td>
+</tr>
+<tr class="even">
+<td>Find next selected</td>
+<td><strong>Ctrl+F3</strong></td>
+</tr>
+<tr class="odd">
+<td>Find previous</td>
+<td><strong>Shift+F3</strong></td>
+</tr>
+<tr class="even">
+<td>Find previous selected</td>
+<td><strong>Ctrl+Shift+F3</strong></td>
+</tr>
+<tr class="odd">
+<td>Generate method</td>
+<td><strong>Ctrl+K, Ctrl+M</strong></td>
+</tr>
+<tr class="even">
+<td>Go to</td>
+<td><strong>Ctrl+G</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to all</td>
+<td><strong>Ctrl+,</strong> or <strong>Ctrl+T</strong></td>
+</tr>
+<tr class="even">
+<td>Go to declaration</td>
+<td><strong>Ctrl+F12</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to definition</td>
+<td><strong>F12</strong></td>
+</tr>
+<tr class="even">
+<td>Go to member</td>
+<td><strong>Ctrl+1, Ctrl+M</strong> or <strong>Ctrl+1, M</strong> or <strong>Alt+\</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to next location</td>
+<td><strong>F8</strong> (Next error in Error List or Output window)</td>
+</tr>
+<tr class="even">
+<td>Go to prev location</td>
+<td><strong>Shift+F8</strong> (Previous error in Error List or Output window)</td>
+</tr>
+<tr class="odd">
+<td>Insert snippet</td>
+<td><strong>Ctrl+K, Ctrl+X</strong></td>
+</tr>
+<tr class="even">
+<td>Move control down</td>
+<td><strong>Ctrl+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control down grid</td>
+<td><strong>Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control left</td>
+<td><strong>Ctrl+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control left grid</td>
+<td><strong>Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control right</td>
+<td><strong>Ctrl+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control right grid</td>
+<td><strong>Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control up</td>
+<td><strong>Ctrl+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control up grid</td>
+<td><strong>Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Next bookmark</td>
+<td><strong>Ctrl+K, Ctrl+N</strong></td>
+</tr>
+<tr class="odd">
+<td>Next bookmark in folder</td>
+<td><strong>Ctrl+Shift+K, Ctrl+Shift+N</strong></td>
+</tr>
+<tr class="even">
+<td>Open file</td>
+<td><strong>Ctrl+Shift+G</strong> (Opens the file name under the cursor)</td>
+</tr>
+<tr class="odd">
+<td>Paste</td>
+<td><strong>Ctrl+V</strong><br /><br /> or<br /><br /> <strong>Shift+Ins</strong></td>
+</tr>
+<tr class="even">
+<td>Previous bookmark</td>
+<td><strong>Ctrl+K, Ctrl+P</strong></td>
+</tr>
+<tr class="odd">
+<td>Previous bookmark in folder</td>
+<td><strong>Ctrl+Shift+K, Ctrl+Shift+P</strong></td>
+</tr>
+<tr class="even">
+<td>Quick find symbol</td>
+<td><strong>Shift+Alt+F12</strong></td>
+</tr>
+<tr class="odd">
+<td>Redo</td>
+<td><strong>Ctrl+Y</strong><br /><br /> or<br /><br /> <strong>Ctrl+Shift+Z</strong><br /><br /> or<br /><br /> <strong>Shift+Alt+Backspace</strong></td>
+</tr>
+<tr class="even">
+<td>Refresh remote references</td>
+<td><strong>Ctrl+Shift+J</strong></td>
+</tr>
+<tr class="odd">
+<td>Replace</td>
+<td><strong>Ctrl+H</strong></td>
+</tr>
+<tr class="even">
+<td>Replacein files</td>
+<td><strong>Ctrl+Shift+H</strong></td>
+</tr>
+<tr class="odd">
+<td>Select all</td>
+<td><strong>Ctrl+A</strong></td>
+</tr>
+<tr class="even">
+<td>Select next control</td>
+<td><strong>Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Select previous control</td>
+<td><strong>Shift+Tab</strong></td>
+</tr>
+<tr class="even">
+<td>Show tile grid</td>
+<td><strong>Enter</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control down</td>
+<td><strong>Ctrl+Shift+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Size control down grid</td>
+<td><strong>Shift+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control left</td>
+<td><strong>Ctrl+Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Size control left grid</td>
+<td><strong>Shift+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control right</td>
+<td><strong>Ctrl+Shift+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Size control right grid</td>
+<td><strong>Shift+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control up</td>
+<td><strong>Ctrl+Shift+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Size control up grid</td>
+<td><strong>Shift+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Stop search</td>
+<td><strong>Alt+F3, S</strong></td>
+</tr>
+<tr class="even">
+<td>Surround with</td>
+<td><strong>Ctrl+K, Ctrl+S</strong></td>
+</tr>
+<tr class="odd">
+<td>Undo</td>
+<td><strong>Ctrl+Z</strong><br /><br /> or<br /><br /> <strong>Alt+Backspace</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="editor-context-menus"><a name="bkmk_editorContext"></a> Editor context menus</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Breakpoint conditions</td>
+<td><strong>Alt+F9, C</strong></td>
+</tr>
+<tr class="even">
+<td>Breakpoint editlabels</td>
+<td><strong>Alt+F9, L</strong></td>
+</tr>
+<tr class="odd">
+<td>Show item</td>
+<td><strong>Ctrl+`</strong></td>
+</tr>
+<tr class="even">
+<td>Execute</td>
+<td><strong>Ctrl+Alt+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to view</td>
+<td><strong>Ctrl+M, Ctrl+G</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle header code file</td>
+<td><strong>Ctrl+K, Ctrl+O</strong> (letter ‘O’)</td>
+</tr>
+<tr class="odd">
+<td>View call hierarchy</td>
+<td><strong>Ctrl+K, Ctrl+T</strong><br /><br /> or<br /><br /> <strong>Ctrl+K, T</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="file"><a name="bkmk_file"></a> File</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Exit</td>
+<td><strong>Alt+F4</strong></td>
+</tr>
+<tr class="even">
+<td>New file</td>
+<td><strong>Ctrl+N</strong></td>
+</tr>
+<tr class="odd">
+<td>New project</td>
+<td><strong>Ctrl+Shift+N</strong></td>
+</tr>
+<tr class="even">
+<td>New web site</td>
+<td><strong>Shift+Alt+N</strong></td>
+</tr>
+<tr class="odd">
+<td>Open file</td>
+<td><strong>Ctrl+O</strong> (letter ‘O’)</td>
+</tr>
+<tr class="even">
+<td>Open project</td>
+<td><strong>Ctrl+Shift+O</strong> (letter ‘O’)</td>
+</tr>
+<tr class="odd">
+<td>Open web site</td>
+<td><strong>Shift+Alt+O</strong> (letter ‘O’)</td>
+</tr>
+<tr class="even">
+<td>Print</td>
+<td><strong>Ctrl+P</strong></td>
+</tr>
+<tr class="odd">
+<td>Save all</td>
+<td><strong>Ctrl+Shift+S</strong></td>
+</tr>
+<tr class="even">
+<td>Save selected items</td>
+<td><strong>Ctrl+S</strong></td>
+</tr>
+<tr class="odd">
+<td>Viewin browser</td>
+<td><strong>Ctrl+Shift+W</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="help"><a name="bkmk_help"></a> Help</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Addand remove help content</td>
+<td><strong>Ctrl+Alt+F1</strong></td>
+</tr>
+<tr class="even">
+<td>F 1 help</td>
+<td><strong>F1</strong></td>
+</tr>
+<tr class="odd">
+<td>View help</td>
+<td><strong>Ctrl+F1</strong></td>
+</tr>
+<tr class="even">
+<td>Window help</td>
+<td><strong>Shift+F1</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="load-test"><a name="bkmk_loadtest"></a> Load test</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Jump to counter pane</td>
+<td><strong>Ctrl+R, Q</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="other-context-menus"><a name="bkmk_otherContext"></a> Other context menus</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Add new diagram</td>
+<td><strong>Insert</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="project"><a name="bkmk_project"></a> Project</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Add existing item</td>
+<td><strong>Shift+Alt+A</strong></td>
+</tr>
+<tr class="even">
+<td>Add new item</td>
+<td><strong>Ctrl+Shift+A</strong></td>
+</tr>
+<tr class="odd">
+<td>Class wizard</td>
+<td><strong>Ctrl+Shift+X</strong></td>
+</tr>
+<tr class="even">
+<td>Override</td>
+<td><strong>Ctrl+Alt+Ins</strong></td>
+</tr>
+<tr class="odd">
+<td>Previewchanges</td>
+<td><strong>Alt+;</strong> then <strong>Alt+C</strong></td>
+</tr>
+<tr class="even">
+<td>Publishselectedfiles</td>
+<td><strong>Alt+;</strong> then <strong>Alt+P</strong></td>
+</tr>
+<tr class="odd">
+<td>Replaceselectedfilesfromserver</td>
+<td><strong>Alt+;</strong> then <strong>Alt+R</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="project-and-solution-context-menus"><a name="bkmk_projectContext"></a> Project and solution context menus</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Move down</td>
+<td><strong>Alt+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move up</td>
+<td><strong>Alt+Up Arrow</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="refactor"><a name="bkmk_refactor"></a> Refactor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Encapsulate field</td>
+<td><strong>Ctrl+R, Ctrl+E</strong></td>
+</tr>
+<tr class="even">
+<td>Extract interface</td>
+<td><strong>Ctrl+R, Ctrl+I</strong></td>
+</tr>
+<tr class="odd">
+<td>Extract method</td>
+<td><strong>Ctrl+R, Ctrl+M</strong></td>
+</tr>
+<tr class="even">
+<td>Remove parameters</td>
+<td><strong>Ctrl+R, Ctrl+V</strong></td>
+</tr>
+<tr class="odd">
+<td>Rename</td>
+<td><strong>Ctrl+R, Ctrl+R</strong></td>
+</tr>
+<tr class="even">
+<td>Reorder parameters</td>
+<td><strong>Ctrl+R, Ctrl+O</strong> (letter ‘O’)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="solution-explorer"><a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer</h2>
+<table>
+<colgroup>
+<col style="width: 93%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Open files filter</td>
+<td><strong>Ctrl+[</strong>, <strong>O</strong> (letter ‘O’)<br /><br /> or<br /><br /> <strong>Ctrl+[</strong>, <strong>Ctrl+O</strong> (letter ‘O’)</td>
+</tr>
+<tr class="even">
+<td>Pending changes filter</td>
+<td><strong>Ctrl+[</strong>, <strong>P</strong><br /><br /> or<br /><br /> <strong>Ctrl+[</strong>, <strong>Ctrl+P</strong></td>
+</tr>
+<tr class="odd">
+<td>Sync with active document</td>
+<td><strong>Ctrl+[</strong>, <strong>S</strong><br /><br /> or<br /><br /> <strong>Ctrl+[</strong>, <strong>Ctrl+S</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="team"><a name="bkmk_team"></a> Team</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Go to git branches</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+N</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, N</strong></td>
+</tr>
+<tr class="even">
+<td>Go to git changes</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+G</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, G</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to git commits</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+O</strong> (letter ‘O’)<br /><br /> or<br /><br /> <strong>Ctrl+0, O</strong></td>
+</tr>
+<tr class="even">
+<td>Team explorer search</td>
+<td><strong>Ctrl+’</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="team-foundation-context-menus"><a name="bkmk_TFcontext"></a> Team Foundation context menus</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Go to builds</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+B</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, B</strong></td>
+</tr>
+<tr class="even">
+<td>Go to connect</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+C</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, C</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to documents</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+D</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, D</strong></td>
+</tr>
+<tr class="even">
+<td>Go to home</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+H</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, H</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to my work</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+M</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, M</strong></td>
+</tr>
+<tr class="even">
+<td>Go to pending changes</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+P</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, P</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to reports</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+R</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, R</strong></td>
+</tr>
+<tr class="even">
+<td>Go to settings</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+S</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, S</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to web access</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+A</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, A</strong></td>
+</tr>
+<tr class="even">
+<td>Go to work items</td>
+<td><strong>Ctrl+0</strong> (zero), <strong>Ctrl+W</strong><br /><br /> or<br /><br /> <strong>Ctrl+0, W</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="test"><a name="bkmk_test"></a> Test</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Use coded ui test builder</td>
+<td><strong>Ctrl+\, Ctrl+C</strong></td>
+</tr>
+<tr class="even">
+<td>Use existing action recording</td>
+<td><strong>Ctrl+\, Ctrl+A</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="test-explorer"><a name="bkmk_testexplorerGLOBAL"></a> Test Explorer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Debug all tests</td>
+<td><strong>Ctrl+R, Ctrl+A</strong></td>
+</tr>
+<tr class="even">
+<td>Debug all tests in context</td>
+<td><strong>Ctrl+R, Ctrl+T</strong></td>
+</tr>
+<tr class="odd">
+<td>Debug last run</td>
+<td><strong>Ctrl+R, D</strong></td>
+</tr>
+<tr class="even">
+<td>Repeat last run</td>
+<td><strong>Ctrl+R, L</strong></td>
+</tr>
+<tr class="odd">
+<td>Run all tests</td>
+<td><strong>Ctrl+R, A</strong></td>
+</tr>
+<tr class="even">
+<td>Run all tests in context</td>
+<td><strong>Ctrl+R, T</strong></td>
+</tr>
+<tr class="odd">
+<td>Show test explorer</td>
+<td><strong>Ctrl+E, T</strong></td>
+</tr>
+<tr class="even">
+<td>Open tab</td>
+<td><strong>Ctrl+E, L</strong></td>
+</tr>
+<tr class="odd">
+<td>Code coverage results</td>
+<td><strong>Ctrl+E, C</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tools"><a name="bkmk_tools"></a> Tools</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Attachto process</td>
+<td><strong>Ctrl+Alt+P</strong></td>
+</tr>
+<tr class="even">
+<td>Code snippets manager</td>
+<td><strong>Ctrl+K, Ctrl+B</strong></td>
+</tr>
+<tr class="odd">
+<td>Force gc</td>
+<td><strong>Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="view"><a name="bkmk_view"></a> View</h2>
+<table>
+<colgroup>
+<col style="width: 93%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>All windows</td>
+<td><strong>Shift+Alt+M</strong></td>
+</tr>
+<tr class="even">
+<td>Architecture explorer</td>
+<td><strong>Ctrl+\, Ctrl+R</strong></td>
+</tr>
+<tr class="odd">
+<td>Backward</td>
+<td><strong>Alt+Left Arrow</strong> (Functions differently from View.NavigateBackward in Text Editor)</td>
+</tr>
+<tr class="even">
+<td>Bookmark window</td>
+<td><strong>Ctrl+K, Ctrl+W</strong></td>
+</tr>
+<tr class="odd">
+<td>Browse next</td>
+<td><strong>Ctrl+Shift+1</strong></td>
+</tr>
+<tr class="even">
+<td>Browse previous</td>
+<td><strong>Ctrl+Shift+2</strong></td>
+</tr>
+<tr class="odd">
+<td>Call hierarchy</td>
+<td><strong>Ctrl+Alt+K</strong></td>
+</tr>
+<tr class="even">
+<td>Class view</td>
+<td><strong>Ctrl+Shift+C</strong></td>
+</tr>
+<tr class="odd">
+<td>Class view go to search combo</td>
+<td><strong>Ctrl+K, Ctrl+V</strong></td>
+</tr>
+<tr class="even">
+<td>Code definition window</td>
+<td><strong>Ctrl+\, D</strong><br /><br /> or<br /><br /> <strong>Ctrl+\, Ctrl+D</strong></td>
+</tr>
+<tr class="odd">
+<td>Command window</td>
+<td><strong>Ctrl+Alt+A</strong></td>
+</tr>
+<tr class="even">
+<td>Data sources</td>
+<td><strong>Shift+Alt+D</strong></td>
+</tr>
+<tr class="odd">
+<td>Document outline</td>
+<td><strong>Ctrl+Alt+T</strong></td>
+</tr>
+<tr class="even">
+<td>Edit label</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="odd">
+<td>Error list</td>
+<td><strong>Ctrl+\, E</strong><br /><br /> or<br /><br /> <strong>Ctrl+\, Ctrl+E</strong></td>
+</tr>
+<tr class="even">
+<td>F # interactive</td>
+<td><strong>Ctrl+Alt+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Find symbol results</td>
+<td><strong>Ctrl+Alt+F12</strong></td>
+</tr>
+<tr class="even">
+<td>Forward</td>
+<td><strong>Alt+Right Arrow</strong> (Functions differently from View.NavigateForward in Text Editor)</td>
+</tr>
+<tr class="odd">
+<td>Forward browse context</td>
+<td><strong>Ctrl+Shift+7</strong></td>
+</tr>
+<tr class="even">
+<td>Full screen</td>
+<td><strong>Shift+Alt+Enter</strong></td>
+</tr>
+<tr class="odd">
+<td>Navigate backward</td>
+<td><strong>Ctrl+-</strong></td>
+</tr>
+<tr class="even">
+<td>Navigate forward</td>
+<td><strong>Ctrl+Shift+-</strong></td>
+</tr>
+<tr class="odd">
+<td>Next error</td>
+<td><strong>Ctrl+Shift+F12</strong></td>
+</tr>
+<tr class="even">
+<td>Notifications</td>
+<td><strong>Ctrl+W, N</strong><br /><br /> or<br /><br /> <strong>Ctrl+W, Ctrl+N</strong></td>
+</tr>
+<tr class="odd">
+<td>Object browser</td>
+<td><strong>Ctrl+Alt+J</strong></td>
+</tr>
+<tr class="even">
+<td>Object browser go to search combo</td>
+<td><strong>Ctrl+K, Ctrl+R</strong></td>
+</tr>
+<tr class="odd">
+<td>Output</td>
+<td><strong>Ctrl+Alt+O</strong> (letter ‘O’)</td>
+</tr>
+<tr class="even">
+<td>Pop browse context</td>
+<td><strong>Ctrl+Shift+8</strong> (C++ only)</td>
+</tr>
+<tr class="odd">
+<td>Properties window</td>
+<td><strong>F4</strong></td>
+</tr>
+<tr class="even">
+<td>Property pages</td>
+<td><strong>Shift+F4</strong></td>
+</tr>
+<tr class="odd">
+<td>Resource view</td>
+<td><strong>Ctrl+Shift+E</strong></td>
+</tr>
+<tr class="even">
+<td>Server explorer</td>
+<td><strong>Ctrl+Alt+S</strong></td>
+</tr>
+<tr class="odd">
+<td>Show smart tag</td>
+<td><strong>Shift+Alt+F10</strong><br /><br /> or<br /><br /> <strong>Ctrl+.</strong></td>
+</tr>
+<tr class="even">
+<td>Solution explorer</td>
+<td><strong>Ctrl+Alt+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Sql server object explorer</td>
+<td><strong>Ctrl+\, Ctrl+S</strong></td>
+</tr>
+<tr class="even">
+<td>Task list</td>
+<td><strong>Ctrl+\, T</strong><br /><br /> or<br /><br /> <strong>Ctrl+\, Ctrl+T</strong></td>
+</tr>
+<tr class="odd">
+<td>Tfs team explorer</td>
+<td><strong>Ctrl+\, Ctrl+M</strong></td>
+</tr>
+<tr class="even">
+<td>Toolbox</td>
+<td><strong>Ctrl+Alt+X</strong></td>
+</tr>
+<tr class="odd">
+<td>Uml model explorer</td>
+<td><strong>Ctrl+\, Ctrl+U</strong></td>
+</tr>
+<tr class="even">
+<td>View code</td>
+<td><strong>F7</strong></td>
+</tr>
+<tr class="odd">
+<td>View designer</td>
+<td><strong>Shift+F7</strong></td>
+</tr>
+<tr class="even">
+<td>Web browser</td>
+<td><strong>Ctrl+Alt+R</strong></td>
+</tr>
+<tr class="odd">
+<td>Zoom in</td>
+<td><strong>Ctrl+Shift+.</strong></td>
+</tr>
+<tr class="even">
+<td>Zoom out</td>
+<td><strong>Ctrl+Shift+,</strong></td>
+</tr>
+<tr class="odd">
+<td>Show test explorer</td>
+<td><strong>Ctrl+E, T</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="window"><a name="bkmk_window"></a> Window</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Activate document window</td>
+<td><strong>Esc</strong></td>
+</tr>
+<tr class="even">
+<td>Add tabto selection</td>
+<td><strong>Ctrl+Shift+Alt+Space</strong></td>
+</tr>
+<tr class="odd">
+<td>Close document window</td>
+<td><strong>Ctrl+F4</strong></td>
+</tr>
+<tr class="even">
+<td>Close tool window</td>
+<td><strong>Shift+Esc</strong></td>
+</tr>
+<tr class="odd">
+<td>Keep tab open</td>
+<td><strong>Ctrl+Alt+Home</strong></td>
+</tr>
+<tr class="even">
+<td>Moveto navigation bar</td>
+<td><strong>Ctrl+F2</strong></td>
+</tr>
+<tr class="odd">
+<td>Next document window</td>
+<td><strong>Ctrl+F6</strong></td>
+</tr>
+<tr class="even">
+<td>Next document window nav</td>
+<td><strong>Ctrl+Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Next pane</td>
+<td><strong>Alt+F6</strong></td>
+</tr>
+<tr class="even">
+<td>Next split pane</td>
+<td><strong>F6</strong></td>
+</tr>
+<tr class="odd">
+<td>Next tab</td>
+<td><strong>Ctrl+Alt+PgDn</strong><br /><br /> or<br /><br /> <strong>Ctrl+PgDn</strong></td>
+</tr>
+<tr class="even">
+<td>Next taband addto selection</td>
+<td><strong>Ctrl+Shift+Alt+PgDn</strong></td>
+</tr>
+<tr class="odd">
+<td>Next tool window nav</td>
+<td><strong>Alt+F7</strong></td>
+</tr>
+<tr class="even">
+<td>Previous document window</td>
+<td><strong>Ctrl+Shift+F6</strong></td>
+</tr>
+<tr class="odd">
+<td>Previous document window nav</td>
+<td><strong>Ctrl+Shift+Tab</strong></td>
+</tr>
+<tr class="even">
+<td>Previous pane</td>
+<td><strong>Shift+Alt+F6</strong></td>
+</tr>
+<tr class="odd">
+<td>Previous split pane</td>
+<td><strong>Shift+F6</strong></td>
+</tr>
+<tr class="even">
+<td>Previous tab</td>
+<td><strong>Ctrl+Alt+PgUp</strong><br /><br /> or<br /><br /> <strong>Ctrl+PgUp</strong></td>
+</tr>
+<tr class="odd">
+<td>Previous taband addto selection</td>
+<td><strong>Ctrl+Shift+Alt+PgUp</strong></td>
+</tr>
+<tr class="even">
+<td>Previous tool window nav</td>
+<td><strong>Shift+Alt+F7</strong></td>
+</tr>
+<tr class="odd">
+<td>Quick launch</td>
+<td><strong>Ctrl+Q</strong></td>
+</tr>
+<tr class="even">
+<td>Quick launch previous category</td>
+<td><strong>Ctrl+Shift+Q</strong></td>
+</tr>
+<tr class="odd">
+<td>Show dock menu</td>
+<td><strong>Alt+-</strong></td>
+</tr>
+<tr class="even">
+<td>Show ez mdi file list</td>
+<td><strong>Ctrl+Alt+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Solution explorer search</td>
+<td><strong>Ctrl+;</strong></td>
+</tr>
+<tr class="even">
+<td>Window search</td>
+<td><strong>Alt+`</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="azure"><a name="bkmk_windowsazure"></a> Azure</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retry mobile service script operation</td>
+<td><strong>Ctrl+Num *, Ctrl+R</strong></td>
+</tr>
+<tr class="even">
+<td>Show mobile service script error details</td>
+<td><strong>Ctrl+Num *, Ctrl+D</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="context-specific-shortcuts">Context-specific shortcuts</h2>
+<h2 id="ado.net-entity-data-model-designer">ADO.NET Entity Data Model Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Down</td>
+<td><strong>Alt+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Down 5</td>
+<td><strong>Alt+PgDn</strong></td>
+</tr>
+<tr class="odd">
+<td>To bottom</td>
+<td><strong>Alt+End</strong></td>
+</tr>
+<tr class="even">
+<td>To top</td>
+<td><strong>Alt+Home</strong></td>
+</tr>
+<tr class="odd">
+<td>Up</td>
+<td><strong>Alt+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Up 5</td>
+<td><strong>Alt+PgUp</strong></td>
+</tr>
+<tr class="odd">
+<td>Rename</td>
+<td><strong>Ctrl+R, R</strong></td>
+</tr>
+<tr class="even">
+<td>Removefrom diagram</td>
+<td><strong>Shift+Del</strong></td>
+</tr>
+<tr class="odd">
+<td>Entity data model browser</td>
+<td><strong>Ctrl+1</strong></td>
+</tr>
+<tr class="even">
+<td>Entity data model mapping details</td>
+<td><strong>Ctrl+2</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="class-diagram">Class diagram</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Collapse</td>
+<td><strong>Num -</strong></td>
+</tr>
+<tr class="even">
+<td>Expand</td>
+<td><strong>Num +</strong></td>
+</tr>
+<tr class="odd">
+<td>Delete</td>
+<td><strong>Ctrl+Del</strong></td>
+</tr>
+<tr class="even">
+<td>Expand collapse base type list</td>
+<td><strong>Shift+Alt+B</strong></td>
+</tr>
+<tr class="odd">
+<td>Navigate to lollipop</td>
+<td><strong>Shift+Alt+L</strong></td>
+</tr>
+<tr class="even">
+<td>Removefrom diagram</td>
+<td><strong>Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>View code</td>
+<td><strong>Enter</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="coded-ui-test-editor">Coded UI Test Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Copy referenceto clipboard</td>
+<td><strong>Ctrl+C</strong></td>
+</tr>
+<tr class="even">
+<td>Insert delay before</td>
+<td><strong>Ctrl+Alt+D</strong></td>
+</tr>
+<tr class="odd">
+<td>Locate all</td>
+<td><strong>Shift+Alt+L</strong></td>
+</tr>
+<tr class="even">
+<td>Locatethe ui control</td>
+<td><strong>Ctrl+Shift+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Movecode</td>
+<td><strong>Ctrl+Alt+C</strong></td>
+</tr>
+<tr class="even">
+<td>Splitintoanewmethod</td>
+<td><strong>Ctrl+Shift+T</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="dataset-editor">DataSet Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Insert column</td>
+<td><strong>Insert</strong></td>
+</tr>
+<tr class="even">
+<td>Column</td>
+<td><strong>Ctrl+L</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="difference-viewer">Difference Viewer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ignore trim whitespace</td>
+<td><strong>Ctrl+\, Ctrl+Spacebar</strong></td>
+</tr>
+<tr class="even">
+<td>Inline view</td>
+<td><strong>Ctrl+\, Ctrl+1</strong></td>
+</tr>
+<tr class="odd">
+<td>Left only view</td>
+<td><strong>Ctrl+\, Ctrl+3</strong></td>
+</tr>
+<tr class="even">
+<td>Next difference</td>
+<td><strong>F8</strong></td>
+</tr>
+<tr class="odd">
+<td>Previous difference</td>
+<td><strong>Shift+F8</strong></td>
+</tr>
+<tr class="even">
+<td>Right only view</td>
+<td><strong>Ctrl+\, Ctrl+4</strong></td>
+</tr>
+<tr class="odd">
+<td>Side by side view</td>
+<td><strong>Ctrl+\, Ctrl+2</strong></td>
+</tr>
+<tr class="even">
+<td>Switch between left and right</td>
+<td><strong>Ctrl+\, Ctrl+Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Synchronize view toggle</td>
+<td><strong>Ctrl+\, Ctrl+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Add comment</td>
+<td><strong>Ctrl+Shift+K</strong></td>
+</tr>
+<tr class="odd">
+<td>Edit local file</td>
+<td><strong>Ctrl+Shift+P</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="dom-explorer">DOM Explorer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Refresh</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="even">
+<td>Select element</td>
+<td><strong>Ctrl+B</strong></td>
+</tr>
+<tr class="odd">
+<td>Show layout</td>
+<td><strong>Ctrl+Shift+I</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="f-interactive">F# interactive</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cancel interactive evaluation</td>
+<td><strong>Ctrl+Break</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="graph-document-editor">Graph Document Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Add node</td>
+<td><strong>Insert</strong></td>
+</tr>
+<tr class="even">
+<td>Both dependencies</td>
+<td><strong>B</strong></td>
+</tr>
+<tr class="odd">
+<td>Incoming dependencies</td>
+<td><strong>I</strong></td>
+</tr>
+<tr class="even">
+<td>Outgoing dependencies</td>
+<td><strong>O</strong></td>
+</tr>
+<tr class="odd">
+<td>New comment</td>
+<td><strong>Ctrl+Shift+K</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, C</strong></td>
+</tr>
+<tr class="even">
+<td>Remove</td>
+<td><strong>Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>Rename</td>
+<td><strong>F2</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="graphics-diagnostics">Graphics diagnostics</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Capture frame</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>Move pixel selection down</td>
+<td><strong>Shift+Alt+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move pixel selection left</td>
+<td><strong>Shift+Alt+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move pixel selection right</td>
+<td><strong>Shift+Alt+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move pixel selection up</td>
+<td><strong>Shift+Alt+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Zoom to actual size</td>
+<td><strong>Shift+Alt+0</strong> (zero)</td>
+</tr>
+<tr class="odd">
+<td>Zoom to fit in window</td>
+<td><strong>Shift+Alt+9</strong></td>
+</tr>
+<tr class="even">
+<td>Zoom in</td>
+<td><strong>Shift+Alt+=</strong></td>
+</tr>
+<tr class="odd">
+<td>Zoom out</td>
+<td><strong>Shift+Alt+-</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="html-editor">HTML Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Go to controller</td>
+<td><strong>Ctrl+M, Ctrl+G</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="html-editor-design-view">HTML Editor Design View</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Move control down</td>
+<td><strong>Ctrl+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control up</td>
+<td><strong>Ctrl+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Bold</td>
+<td><strong>Ctrl+B</strong></td>
+</tr>
+<tr class="even">
+<td>Convertto hyperlink</td>
+<td><strong>Ctrl+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Insert bookmark</td>
+<td><strong>Ctrl+Shift+L</strong></td>
+</tr>
+<tr class="even">
+<td>Italic</td>
+<td><strong>Ctrl+I</strong></td>
+</tr>
+<tr class="odd">
+<td>Underline</td>
+<td><strong>Ctrl+U</strong></td>
+</tr>
+<tr class="even">
+<td>Add content page</td>
+<td><strong>Ctrl+M, Ctrl+C</strong></td>
+</tr>
+<tr class="odd">
+<td>Columntothe left</td>
+<td><strong>Ctrl+Alt+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Columntothe right</td>
+<td><strong>Ctrl+Alt+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Row above</td>
+<td><strong>Ctrl+Alt+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Row below</td>
+<td><strong>Ctrl+Alt+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Net nonvisual controls</td>
+<td><strong>Ctrl+Shift+N</strong></td>
+</tr>
+<tr class="even">
+<td>Edit master</td>
+<td><strong>Ctrl+M, Ctrl+M</strong></td>
+</tr>
+<tr class="odd">
+<td>Next view</td>
+<td><strong>Ctrl+PgDn</strong></td>
+</tr>
+<tr class="even">
+<td>Show smart tag</td>
+<td><strong>Shift+Alt+F10</strong></td>
+</tr>
+<tr class="odd">
+<td>View markup</td>
+<td><strong>Shift+F7</strong></td>
+</tr>
+<tr class="even">
+<td>Previous tab</td>
+<td><strong>Ctrl+PgUp</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="html-editor-source-view">HTML Editor Source View</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Go to controller</td>
+<td><strong>Ctrl+M, Ctrl+G</strong></td>
+</tr>
+<tr class="even">
+<td>Next view</td>
+<td><strong>Ctrl+PgDn</strong></td>
+</tr>
+<tr class="odd">
+<td>Synchronize views</td>
+<td><strong>Ctrl+Shift+Y</strong></td>
+</tr>
+<tr class="even">
+<td>View designer</td>
+<td><strong>Shift+F7</strong></td>
+</tr>
+<tr class="odd">
+<td>Previous tab</td>
+<td><strong>Ctrl+PgUp</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="layer-diagram">Layer diagram</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Delete</td>
+<td><strong>Shift+Delete</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="managed-resources-editor">Managed Resources Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Edit cell</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="even">
+<td>Remove</td>
+<td><strong>Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>Remove row</td>
+<td><strong>Ctrl+Delete</strong></td>
+</tr>
+<tr class="even">
+<td>Selection cancel</td>
+<td><strong>Escape</strong></td>
+</tr>
+<tr class="odd">
+<td>Audio</td>
+<td><strong>Ctrl+4</strong></td>
+</tr>
+<tr class="even">
+<td>Files</td>
+<td><strong>Ctrl+5</strong></td>
+</tr>
+<tr class="odd">
+<td>Icons</td>
+<td><strong>Ctrl+3</strong></td>
+</tr>
+<tr class="even">
+<td>Images</td>
+<td><strong>Ctrl+2</strong></td>
+</tr>
+<tr class="odd">
+<td>Other</td>
+<td><strong>Ctrl+6</strong></td>
+</tr>
+<tr class="even">
+<td>Strings</td>
+<td><strong>Ctrl+1</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="merge-editor-window">Merge Editor window</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Set focuson left window</td>
+<td><strong>Alt+1</strong></td>
+</tr>
+<tr class="even">
+<td>Set focuson result window</td>
+<td><strong>Alt+2</strong></td>
+</tr>
+<tr class="odd">
+<td>Set focuson right window</td>
+<td><strong>Alt+3</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="microsoft-sql-server-data-tools-schema-compare">Microsoft SQL Server Data Tools, Schema Compare</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ssdt schema compare compare</td>
+<td><strong>Shift+Alt+C</strong></td>
+</tr>
+<tr class="even">
+<td>Ssdt schema compare generate script</td>
+<td><strong>Shift+Alt+G</strong></td>
+</tr>
+<tr class="odd">
+<td>Ssdt schema compare next change</td>
+<td><strong>Shift+Alt+.</strong></td>
+</tr>
+<tr class="even">
+<td>Ssdt schema compare previous change</td>
+<td><strong>Shift+Alt+,</strong></td>
+</tr>
+<tr class="odd">
+<td>Ssdt schema compare stop</td>
+<td><strong>Alt+Break</strong></td>
+</tr>
+<tr class="even">
+<td>Ssdt schema compare write updates</td>
+<td><strong>Shift+Alt+U</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="microsoft-sql-server-data-tools-table-designer">Microsoft SQL Server Data Tools, Table Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CommitAllEdits</td>
+<td><strong>Shift+Alt+U</strong></td>
+</tr>
+<tr class="even">
+<td>Expand wildcards</td>
+<td><strong>Ctrl+R, E</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, Ctrl+E</strong></td>
+</tr>
+<tr class="odd">
+<td>Fullyqualify names</td>
+<td><strong>Ctrl+R, Q</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, Ctrl+Q</strong></td>
+</tr>
+<tr class="even">
+<td>Moveto schema</td>
+<td><strong>Ctrl+R, M</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, Ctrl+M</strong></td>
+</tr>
+<tr class="odd">
+<td>Rename</td>
+<td><strong>F2</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, R</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, Ctrl+R</strong></td>
+</tr>
+<tr class="even">
+<td>ViewFileInScriptPanel</td>
+<td><strong>Shift+Alt+PgDn</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="microsoft-sql-server-data-tools-t-sql-editor">Microsoft SQL Server Data Tools, T-SQL Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CommitAllEdits</td>
+<td><strong>Shift+Alt+U</strong></td>
+</tr>
+<tr class="even">
+<td>Execute with debugger</td>
+<td><strong>Alt+F5</strong></td>
+</tr>
+<tr class="odd">
+<td>Expand wildcards</td>
+<td><strong>Ctrl+R, E</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, Ctrl+E</strong></td>
+</tr>
+<tr class="even">
+<td>Fullyqualify names</td>
+<td><strong>Ctrl+R, Q</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, Ctrl+Q</strong></td>
+</tr>
+<tr class="odd">
+<td>Moveto schema</td>
+<td><strong>Ctrl+R, M</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, Ctrl+M</strong></td>
+</tr>
+<tr class="even">
+<td>Rename</td>
+<td><strong>F2</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, R</strong><br /><br /> or<br /><br /> <strong>Ctrl+R, Ctrl+R</strong></td>
+</tr>
+<tr class="odd">
+<td>T sql editor cancel query</td>
+<td><strong>Alt+Break</strong></td>
+</tr>
+<tr class="even">
+<td>T sql editor execute query</td>
+<td><strong>Ctrl+Shift+E</strong></td>
+</tr>
+<tr class="odd">
+<td>T sql editor results as file</td>
+<td><strong>Ctrl+D, F</strong></td>
+</tr>
+<tr class="even">
+<td>T sql editor results as grid</td>
+<td><strong>Ctrl+D, G</strong></td>
+</tr>
+<tr class="odd">
+<td>T sql editor results as text</td>
+<td><strong>Ctrl+D, T</strong></td>
+</tr>
+<tr class="even">
+<td>T sql editor show estimated plan</td>
+<td><strong>Ctrl+D, E</strong></td>
+</tr>
+<tr class="odd">
+<td>T sql editor toggle execution plan</td>
+<td><strong>Ctrl+D, A</strong></td>
+</tr>
+<tr class="even">
+<td>T sql editor toggle results pane</td>
+<td><strong>Ctrl+D, R</strong></td>
+</tr>
+<tr class="odd">
+<td>TSqlEditorCloneQuery</td>
+<td><strong>Ctrl+Alt+N</strong></td>
+</tr>
+<tr class="even">
+<td>TSqlEditorDatabaseCombo</td>
+<td><strong>Shift+Alt+PgDn</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="microsoft-sql-server-data-tools-t-sql-pdw-editor">Microsoft SQL Server Data Tools, T-SQL PDW Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>T sql editor cancel query</td>
+<td><strong>Alt+Break</strong></td>
+</tr>
+<tr class="even">
+<td>T sql editor execute query</td>
+<td><strong>Ctrl+Shift+E</strong></td>
+</tr>
+<tr class="odd">
+<td>T sql editor results as file</td>
+<td><strong>Ctrl+D, F</strong></td>
+</tr>
+<tr class="even">
+<td>T sql editor results as grid</td>
+<td><strong>Ctrl+D, G</strong></td>
+</tr>
+<tr class="odd">
+<td>T sql editor results as text</td>
+<td><strong>Ctrl+D, T</strong></td>
+</tr>
+<tr class="even">
+<td>T sql editor show estimated plan</td>
+<td><strong>Ctrl+D, E</strong></td>
+</tr>
+<tr class="odd">
+<td>T sql editor toggle execution plan</td>
+<td><strong>Ctrl+D, A</strong></td>
+</tr>
+<tr class="even">
+<td>T sql editor toggle results pane</td>
+<td><strong>Ctrl+D, R</strong></td>
+</tr>
+<tr class="odd">
+<td>TSqlEditorCloneQuery</td>
+<td><strong>Ctrl+Alt+N</strong></td>
+</tr>
+<tr class="even">
+<td>TSqlEditorDatabaseCombo</td>
+<td><strong>Shift+Alt+PgDn</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="page-inspector">Page Inspector</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Minimize</td>
+<td><strong>F12</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="query-designer">Query Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cancel retrieving data</td>
+<td><strong>Ctrl+T</strong></td>
+</tr>
+<tr class="even">
+<td>Criteria</td>
+<td><strong>Ctrl+2</strong></td>
+</tr>
+<tr class="odd">
+<td>Diagram</td>
+<td><strong>Ctrl+1</strong></td>
+</tr>
+<tr class="even">
+<td>Execute sql</td>
+<td><strong>Ctrl+R</strong></td>
+</tr>
+<tr class="odd">
+<td>Goto row</td>
+<td><strong>Ctrl+G</strong></td>
+</tr>
+<tr class="even">
+<td>Join mode</td>
+<td><strong>Ctrl+Shift+J</strong></td>
+</tr>
+<tr class="odd">
+<td>Results</td>
+<td><strong>Ctrl+4</strong></td>
+</tr>
+<tr class="even">
+<td>Sql</td>
+<td><strong>Ctrl+3</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="query-results">Query results</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Query results new row</td>
+<td><strong>Alt+End</strong></td>
+</tr>
+<tr class="even">
+<td>Query results refresh</td>
+<td><strong>Shift+Alt+R</strong></td>
+</tr>
+<tr class="odd">
+<td>Query results stop</td>
+<td><strong>Alt+Break</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="report-designer">Report Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Break line</td>
+<td><strong>Enter</strong></td>
+</tr>
+<tr class="even">
+<td>Char left</td>
+<td><strong>Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Char left extend</td>
+<td><strong>Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Char right</td>
+<td><strong>Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Char right extend</td>
+<td><strong>Shift+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Insert tab</td>
+<td><strong>Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Line down</td>
+<td><strong>Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Line down extend</td>
+<td><strong>Shift+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Line up</td>
+<td><strong>Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Line up extend</td>
+<td><strong>Shift+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control down</td>
+<td><strong>Ctrl+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control left</td>
+<td><strong>Ctrl+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control right</td>
+<td><strong>Ctrl+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control up</td>
+<td><strong>Ctrl+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Selection cancel</td>
+<td><strong>Esc</strong></td>
+</tr>
+<tr class="even">
+<td>Size control down</td>
+<td><strong>Ctrl+Shift+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control left</td>
+<td><strong>Ctrl+Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Size control right</td>
+<td><strong>Ctrl+Shift+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control up</td>
+<td><strong>Ctrl+Shift+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Tab left</td>
+<td><strong>Shift+Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Report data</td>
+<td><strong>Ctrl+Alt+D</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sequence-diagram">Sequence diagram</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Navigate to code</td>
+<td><strong>F12</strong></td>
+</tr>
+<tr class="even">
+<td>Delete</td>
+<td><strong>Shift+Del</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="settings-designer">Settings Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Edit cell</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="even">
+<td>Remove row</td>
+<td><strong>Ctrl+Delete</strong></td>
+</tr>
+<tr class="odd">
+<td>Selection cancel</td>
+<td><strong>Esc</strong></td>
+</tr>
+<tr class="even">
+<td>View code</td>
+<td><strong>F7</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="solution-explorer-1">Solution Explorer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Viewin page inspector</td>
+<td><strong>Ctrl+K, Ctrl+G</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="team-explorer">Team Explorer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard Shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Delete</td>
+<td><strong>Delete</strong></td>
+</tr>
+<tr class="even">
+<td>Rename</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to team explorer navigation</td>
+<td><strong>Alt+Home</strong></td>
+</tr>
+<tr class="even">
+<td>Go to team explorer next section content</td>
+<td><strong>Alt+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to team explorer page content</td>
+<td><strong>Alt+0</strong> (zero)</td>
+</tr>
+<tr class="even">
+<td>Go to team explorer previous section content</td>
+<td><strong>Alt+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to team explorer section 1 content</td>
+<td><strong>Alt+1</strong></td>
+</tr>
+<tr class="even">
+<td>Go to team explorer section 2 content</td>
+<td><strong>Alt+2</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to team explorer section 3 content</td>
+<td><strong>Alt+3</strong></td>
+</tr>
+<tr class="even">
+<td>Go to team explorer section 4 content</td>
+<td><strong>Alt+4</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to team explorer section 5 content</td>
+<td><strong>Alt+5</strong></td>
+</tr>
+<tr class="even">
+<td>Go to team explorer section 6 content</td>
+<td><strong>Alt+6</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to team explorer section 7 content</td>
+<td><strong>Alt+7</strong></td>
+</tr>
+<tr class="even">
+<td>Go to team explorer section 8 content</td>
+<td><strong>Alt+8</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to team explorer section 9 content</td>
+<td><strong>Alt+9</strong></td>
+</tr>
+<tr class="even">
+<td>Team explorer navigate backward</td>
+<td><strong>Alt+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Team explorer navigate forward</td>
+<td><strong>Alt+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Tfs context my work page create copy wi</td>
+<td><strong>Shift+Alt+C</strong></td>
+</tr>
+<tr class="odd">
+<td>Tfs context my work page new linked wi</td>
+<td><strong>Shift+Alt+L</strong></td>
+</tr>
+<tr class="even">
+<td>Refresh</td>
+<td><strong>F5</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="test-explorer-1">Test Explorer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Open test</td>
+<td><strong>F12</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="text-editor">Text Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Break line</td>
+<td><strong>Enter</strong><br /><br /> or<br /><br /> <strong>Shift+Enter</strong></td>
+</tr>
+<tr class="even">
+<td>Char left</td>
+<td><strong>Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Char left extend</td>
+<td><strong>Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Char left extend column</td>
+<td><strong>Shift+Alt+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Char right</td>
+<td><strong>Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Char right extend</td>
+<td><strong>Shift+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Char right extend column</td>
+<td><strong>Shift+Alt+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Clear bookmarks</td>
+<td><strong>Ctrl+K, Ctrl+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Collapse all outlining</td>
+<td><strong>Ctrl+M, Ctrl+A</strong></td>
+</tr>
+<tr class="even">
+<td>Collapse current region</td>
+<td><strong>Ctrl+M, Ctrl+S</strong></td>
+</tr>
+<tr class="odd">
+<td>Collapse tag</td>
+<td><strong>Ctrl+M, Ctrl+T</strong></td>
+</tr>
+<tr class="even">
+<td>Collapse to definitions</td>
+<td><strong>Ctrl+M, Ctrl+O</strong> (letter ‘O’)</td>
+</tr>
+<tr class="odd">
+<td>Contract selection</td>
+<td><strong>Shift+Alt+-</strong></td>
+</tr>
+<tr class="even">
+<td>Comment selection</td>
+<td><strong>Ctrl+K, Ctrl+C</strong></td>
+</tr>
+<tr class="odd">
+<td>Complete word</td>
+<td><strong>Ctrl+Space</strong><br /><br /> or<br /><br /> <strong>Alt+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Copy parameter tip</td>
+<td><strong>Ctrl+Shift+Alt+C</strong></td>
+</tr>
+<tr class="odd">
+<td>Decrease filter level</td>
+<td><strong>Alt+,</strong></td>
+</tr>
+<tr class="even">
+<td>Delete backwards</td>
+<td><strong>Backspace</strong><br /><br /> or<br /><br /> <strong>Shift+Bkspce</strong></td>
+</tr>
+<tr class="odd">
+<td>Delete horizontal white space</td>
+<td><strong>Ctrl+K, Ctrl+\</strong></td>
+</tr>
+<tr class="even">
+<td>Document end</td>
+<td><strong>Ctrl+End</strong></td>
+</tr>
+<tr class="odd">
+<td>Document end extend</td>
+<td><strong>Ctrl+Shift+End</strong></td>
+</tr>
+<tr class="even">
+<td>Document start</td>
+<td><strong>Ctrl+Home</strong></td>
+</tr>
+<tr class="odd">
+<td>Document start extend</td>
+<td><strong>Ctrl+Shift+Home</strong></td>
+</tr>
+<tr class="even">
+<td>Expand all outlining</td>
+<td><strong>Ctrl+M, Ctrl+X</strong></td>
+</tr>
+<tr class="odd">
+<td>Expand current region</td>
+<td><strong>Ctrl+M, Ctrl+E</strong></td>
+</tr>
+<tr class="even">
+<td>Expand selection</td>
+<td><strong>Shift+Alt+=</strong></td>
+</tr>
+<tr class="odd">
+<td>Expand selectionto containing block</td>
+<td><strong>Shift+Alt+]</strong></td>
+</tr>
+<tr class="even">
+<td>Format document</td>
+<td><strong>Ctrl+K, Ctrl+D</strong></td>
+</tr>
+<tr class="odd">
+<td>Format selection</td>
+<td><strong>Ctrl+K, Ctrl+F</strong></td>
+</tr>
+<tr class="even">
+<td>Goto all</td>
+<td><strong>Ctrl+T</strong><br /><br /> or<br /><br /> <strong>Ctrl+,</strong></td>
+</tr>
+<tr class="odd">
+<td>Goto brace</td>
+<td><strong>Ctrl+]</strong></td>
+</tr>
+<tr class="even">
+<td>Goto brace extend</td>
+<td><strong>Ctrl+Shift+]</strong></td>
+</tr>
+<tr class="odd">
+<td>Goto recent</td>
+<td><strong>Ctrl+T,R</strong></td>
+</tr>
+<tr class="even">
+<td>Goto next issuein file</td>
+<td><strong>Alt+PgDn</strong></td>
+</tr>
+<tr class="odd">
+<td>Goto previous issuein file</td>
+<td><strong>Alt+PgUp</strong></td>
+</tr>
+<tr class="even">
+<td>Hide selection</td>
+<td><strong>Ctrl+M, Ctrl+H</strong></td>
+</tr>
+<tr class="odd">
+<td>Increase filter level</td>
+<td><strong>Alt+.</strong></td>
+</tr>
+<tr class="even">
+<td>Incremental search</td>
+<td><strong>Ctrl+I</strong></td>
+</tr>
+<tr class="odd">
+<td>Insert caretsat all matching</td>
+<td><strong>Shift+Alt+;</strong></td>
+</tr>
+<tr class="even">
+<td>Insert next matching caret</td>
+<td><strong>Shift+Alt+.</strong></td>
+</tr>
+<tr class="odd">
+<td>Insert tab</td>
+<td><strong>Tab</strong></td>
+</tr>
+<tr class="even">
+<td>Line cut</td>
+<td><strong>Ctrl+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Line delete</td>
+<td><strong>Ctrl+Shift+L</strong></td>
+</tr>
+<tr class="even">
+<td>Line down</td>
+<td><strong>Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Line down extend</td>
+<td><strong>Shift+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Line down extend column</td>
+<td><strong>Shift+Alt+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Line end</td>
+<td><strong>End</strong></td>
+</tr>
+<tr class="even">
+<td>Line end extend</td>
+<td><strong>Shift+End</strong></td>
+</tr>
+<tr class="odd">
+<td>Line end extend column</td>
+<td><strong>Shift+Alt+End</strong></td>
+</tr>
+<tr class="even">
+<td>Line open above</td>
+<td><strong>Ctrl+Enter</strong></td>
+</tr>
+<tr class="odd">
+<td>Line open below</td>
+<td><strong>Ctrl+Shift+Enter</strong></td>
+</tr>
+<tr class="even">
+<td>Line start</td>
+<td><strong>Home</strong></td>
+</tr>
+<tr class="odd">
+<td>Line start extend</td>
+<td><strong>Shift+Home</strong></td>
+</tr>
+<tr class="even">
+<td>Line start extend column</td>
+<td><strong>Shift+Alt+Home</strong></td>
+</tr>
+<tr class="odd">
+<td>Line transpose</td>
+<td><strong>Shift+Alt+T</strong></td>
+</tr>
+<tr class="even">
+<td>Line up</td>
+<td><strong>Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Line up extend</td>
+<td><strong>Shift+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Line up extend column</td>
+<td><strong>Shift+Alt+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>List members</td>
+<td><strong>Ctrl+J</strong></td>
+</tr>
+<tr class="even">
+<td>Make lowercase</td>
+<td><strong>Ctrl+U</strong></td>
+</tr>
+<tr class="odd">
+<td>Make uppercase</td>
+<td><strong>Ctrl+Shift+U</strong></td>
+</tr>
+<tr class="even">
+<td>Move selected lines down</td>
+<td><strong>Alt+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move selected lines up</td>
+<td><strong>Alt+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Next highlighted reference</td>
+<td><strong>Ctrl+Shift+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Overtype mode</td>
+<td><strong>Insert</strong></td>
+</tr>
+<tr class="even">
+<td>Page down</td>
+<td><strong>PgDn</strong></td>
+</tr>
+<tr class="odd">
+<td>Page down extend</td>
+<td><strong>Shift+PgDn</strong></td>
+</tr>
+<tr class="even">
+<td>Page up</td>
+<td><strong>PgUp</strong></td>
+</tr>
+<tr class="odd">
+<td>Page up extend</td>
+<td><strong>Shift+PgUp</strong></td>
+</tr>
+<tr class="even">
+<td>Parameter info</td>
+<td><strong>Ctrl+Shift+Spacebar</strong></td>
+</tr>
+<tr class="odd">
+<td>Paste parameter tip</td>
+<td><strong>Ctrl+Shift+Alt+P</strong></td>
+</tr>
+<tr class="even">
+<td>Peek backward</td>
+<td><strong>Ctrl+Alt+-</strong></td>
+</tr>
+<tr class="odd">
+<td>Peek definition</td>
+<td><strong>Alt+F12</strong></td>
+</tr>
+<tr class="even">
+<td>Peek forward</td>
+<td><strong>Ctrl+Alt+=</strong></td>
+</tr>
+<tr class="odd">
+<td>Previous highlighted reference</td>
+<td><strong>Ctrl+Shift+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Quick info</td>
+<td><strong>Ctrl+K, Ctrl+I</strong></td>
+</tr>
+<tr class="odd">
+<td>Reverse incremental search</td>
+<td><strong>Ctrl+Shift+I</strong></td>
+</tr>
+<tr class="even">
+<td>Scroll line down</td>
+<td><strong>Ctrl+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Scroll line up</td>
+<td><strong>Ctrl+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Select current word</td>
+<td><strong>Ctrl+W</strong></td>
+</tr>
+<tr class="odd">
+<td>Selection cancel</td>
+<td><strong>Escape</strong></td>
+</tr>
+<tr class="even">
+<td>Select to last go back</td>
+<td><strong>Ctrl+=</strong></td>
+</tr>
+<tr class="odd">
+<td>Show code lens menu</td>
+<td><strong>Ctrl+K, Ctrl+`</strong></td>
+</tr>
+<tr class="even">
+<td>Show navigate menu</td>
+<td><strong>Alt+`</strong></td>
+</tr>
+<tr class="odd">
+<td>Stop hiding current</td>
+<td><strong>Ctrl+M, Ctrl+U</strong></td>
+</tr>
+<tr class="even">
+<td>Stop outlining</td>
+<td><strong>Ctrl+M, Ctrl+P</strong></td>
+</tr>
+<tr class="odd">
+<td>Swap anchor</td>
+<td><strong>Ctrl+K, Ctrl+A</strong></td>
+</tr>
+<tr class="even">
+<td>Tab left</td>
+<td><strong>Shift+Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle all outlining</td>
+<td><strong>Ctrl+M, Ctrl+L</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle bookmark</td>
+<td><strong>Ctrl+K, Ctrl+K</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle completion mode</td>
+<td><strong>Ctrl+Alt+Space</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle outlining expansion</td>
+<td><strong>Ctrl+M, Ctrl+M</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle task list shortcut</td>
+<td><strong>Ctrl+K, Ctrl+H</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle word wrap</td>
+<td><strong>Ctrl+E, Ctrl+W</strong></td>
+</tr>
+<tr class="odd">
+<td>Uncomment selection</td>
+<td><strong>Ctrl+K, Ctrl+U</strong></td>
+</tr>
+<tr class="even">
+<td>View bottom</td>
+<td><strong>Ctrl+PgDn</strong></td>
+</tr>
+<tr class="odd">
+<td>View bottom extend</td>
+<td><strong>Ctrl+Shift+PgDn</strong></td>
+</tr>
+<tr class="even">
+<td>View top</td>
+<td><strong>Ctrl+PgUp</strong></td>
+</tr>
+<tr class="odd">
+<td>View top extend</td>
+<td><strong>Ctrl+Shift+PgUp</strong></td>
+</tr>
+<tr class="even">
+<td>View white space</td>
+<td><strong>Ctrl+R, Ctrl+W</strong></td>
+</tr>
+<tr class="odd">
+<td>Word delete to end</td>
+<td><strong>Ctrl+Delete</strong></td>
+</tr>
+<tr class="even">
+<td>Word delete to start</td>
+<td><strong>Ctrl+Backspace</strong></td>
+</tr>
+<tr class="odd">
+<td>Word next</td>
+<td><strong>Ctrl+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Word next extend</td>
+<td><strong>Ctrl+Shift+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Word next extend column</td>
+<td><strong>Ctrl+Shift+Alt+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Word previous</td>
+<td><strong>Ctrl+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Word previous extend</td>
+<td><strong>Ctrl+Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Word previous extend column</td>
+<td><strong>Ctrl+Shift+Alt+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Word transpose</td>
+<td><strong>Ctrl+Shift+T</strong></td>
+</tr>
+<tr class="even">
+<td>Execute in interactive</td>
+<td><strong>Alt+Enter</strong></td>
+</tr>
+<tr class="odd">
+<td>Execute line in interactive</td>
+<td><strong>Alt+’</strong></td>
+</tr>
+<tr class="even">
+<td>Viewin page inspector</td>
+<td><strong>Ctrl+K, Ctrl+G</strong></td>
+</tr>
+<tr class="odd">
+<td>Tfs annotate move next region</td>
+<td><strong>Alt+PgDn</strong></td>
+</tr>
+<tr class="even">
+<td>Tfs annotate move previous region</td>
+<td><strong>Alt+PgUp</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="uml-activity-diagram">UML activity diagram</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Delete</td>
+<td><strong>Shift+Del</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="uml-class-diagram">UML class diagram</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Delete from model</td>
+<td><strong>Shift+Del</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="uml-component-diagram">UML component diagram</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Delete from model</td>
+<td><strong>Shift+Del</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="uml-use-case-diagram">UML use case diagram</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Delete from model</td>
+<td><strong>Shift+Del</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="vc-accelerator-editor">VC Accelerator Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>New accelerator</td>
+<td><strong>Insert</strong></td>
+</tr>
+<tr class="even">
+<td>Next key typed</td>
+<td><strong>Ctrl+W</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="vc-dialog-editor">VC Dialog Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Move control down</td>
+<td><strong>Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control left</td>
+<td><strong>Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control right</td>
+<td><strong>Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control up</td>
+<td><strong>Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Scroll column left</td>
+<td><strong>Ctrl+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Scroll column right</td>
+<td><strong>Ctrl+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Scroll line down</td>
+<td><strong>Ctrl+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Scroll line up</td>
+<td><strong>Ctrl+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control down</td>
+<td><strong>Shift+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Size control left</td>
+<td><strong>Shift+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control right</td>
+<td><strong>Shift+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Size control up</td>
+<td><strong>Shift+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Align bottoms</td>
+<td><strong>Ctrl+Shift+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Align centers</td>
+<td><strong>Shift+F9</strong></td>
+</tr>
+<tr class="odd">
+<td>Align lefts</td>
+<td><strong>Ctrl+Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Align middles</td>
+<td><strong>F9</strong></td>
+</tr>
+<tr class="odd">
+<td>Align rights</td>
+<td><strong>Ctrl+Shift+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Align tops</td>
+<td><strong>Ctrl+Shift+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Button bottom</td>
+<td><strong>Ctrl+B</strong></td>
+</tr>
+<tr class="even">
+<td>Button right</td>
+<td><strong>Ctrl+R</strong></td>
+</tr>
+<tr class="odd">
+<td>Center horizontal</td>
+<td><strong>Ctrl+Shift+F9</strong></td>
+</tr>
+<tr class="even">
+<td>Center vertical</td>
+<td><strong>Ctrl+F9</strong></td>
+</tr>
+<tr class="odd">
+<td>Check mnemonics</td>
+<td><strong>Ctrl+M</strong></td>
+</tr>
+<tr class="even">
+<td>Sizeto content</td>
+<td><strong>Shift+F7</strong></td>
+</tr>
+<tr class="odd">
+<td>Space across</td>
+<td><strong>Alt+Right Arrow</strong><br /><br /> or<br /><br /> <strong>Alt+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Space down</td>
+<td><strong>Alt+Up Arrow</strong><br /><br /> or<br /><br /> <strong>Alt+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Tab order</td>
+<td><strong>Ctrl+D</strong></td>
+</tr>
+<tr class="even">
+<td>Test dialog</td>
+<td><strong>Ctrl+T</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle guides</td>
+<td><strong>Ctrl+G</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="vc-image-editor">VC Image Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Airbrush tool</td>
+<td><strong>Ctrl+A</strong></td>
+</tr>
+<tr class="even">
+<td>Brush tool</td>
+<td><strong>Ctrl+B</strong></td>
+</tr>
+<tr class="odd">
+<td>Copyand outline selection</td>
+<td><strong>Ctrl+Shift+U</strong></td>
+</tr>
+<tr class="even">
+<td>Draw opaque</td>
+<td><strong>Ctrl+J</strong></td>
+</tr>
+<tr class="odd">
+<td>Ellipse tool</td>
+<td><strong>Alt+P</strong></td>
+</tr>
+<tr class="even">
+<td>Erase tool</td>
+<td><strong>Ctrl+Shift+I</strong></td>
+</tr>
+<tr class="odd">
+<td>Filled ellipse tool</td>
+<td><strong>Ctrl+Shift+Alt+P</strong></td>
+</tr>
+<tr class="even">
+<td>Filled rectangle tool</td>
+<td><strong>Ctrl+Shift+Alt+R</strong></td>
+</tr>
+<tr class="odd">
+<td>Filled rounded rectangle tool</td>
+<td><strong>Ctrl+Shift+Alt+W</strong></td>
+</tr>
+<tr class="even">
+<td>Fill tool</td>
+<td><strong>Ctrl+F</strong></td>
+</tr>
+<tr class="odd">
+<td>Flip horizontal</td>
+<td><strong>Ctrl+H</strong></td>
+</tr>
+<tr class="even">
+<td>Flip vertical</td>
+<td><strong>Shift+Alt+H</strong></td>
+</tr>
+<tr class="odd">
+<td>Larger brush</td>
+<td><strong>Ctrl+=</strong></td>
+</tr>
+<tr class="even">
+<td>Line tool</td>
+<td><strong>Ctrl+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Magnification tool</td>
+<td><strong>Ctrl+M</strong></td>
+</tr>
+<tr class="even">
+<td>Magnify</td>
+<td><strong>Ctrl+Shift+M</strong></td>
+</tr>
+<tr class="odd">
+<td>New image type</td>
+<td><strong>Insert</strong></td>
+</tr>
+<tr class="even">
+<td>Next color</td>
+<td><strong>Ctrl+]</strong><br /><br /> or<br /><br /> <strong>Ctrl+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Next right color</td>
+<td><strong>Ctrl+Shift+]</strong><br /><br /> or<br /><br /> <strong>Ctrl+Shift+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Outlined ellipse tool</td>
+<td><strong>Shift+Alt+P</strong></td>
+</tr>
+<tr class="odd">
+<td>Outlined rectangle tool</td>
+<td><strong>Shift+Alt+R</strong></td>
+</tr>
+<tr class="even">
+<td>Outlined rounded rectangle tool</td>
+<td><strong>Shift+Alt+W</strong></td>
+</tr>
+<tr class="odd">
+<td>Pencil tool</td>
+<td><strong>Ctrl+I</strong></td>
+</tr>
+<tr class="even">
+<td>Previous color</td>
+<td><strong>Ctrl+[</strong><br /><br /> or<br /><br /> <strong>Ctrl+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Previous right color</td>
+<td><strong>Ctrl+Shift+[</strong><br /><br /> or<br /><br /> <strong>Ctrl+Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Rectangle selection tool</td>
+<td><strong>Shift+Alt+S</strong></td>
+</tr>
+<tr class="odd">
+<td>Rectangle tool</td>
+<td><strong>Alt+R</strong></td>
+</tr>
+<tr class="even">
+<td>Rotate 90 degrees</td>
+<td><strong>Ctrl+Shift+H</strong></td>
+</tr>
+<tr class="odd">
+<td>Rounded rectangle tool</td>
+<td><strong>Alt+W</strong></td>
+</tr>
+<tr class="even">
+<td>Show grid</td>
+<td><strong>Ctrl+Alt+S</strong></td>
+</tr>
+<tr class="odd">
+<td>Show tile grid</td>
+<td><strong>Ctrl+Shift+Alt+S</strong></td>
+</tr>
+<tr class="even">
+<td>Small brush</td>
+<td><strong>Ctrl+.</strong></td>
+</tr>
+<tr class="odd">
+<td>Smaller brush</td>
+<td><strong>Ctrl+-</strong></td>
+</tr>
+<tr class="even">
+<td>Text tool</td>
+<td><strong>Ctrl+T</strong></td>
+</tr>
+<tr class="odd">
+<td>Use selectionas brush</td>
+<td><strong>Ctrl+U</strong></td>
+</tr>
+<tr class="even">
+<td>Zoom in</td>
+<td><strong>Ctrl+Shift+.</strong><br /><br /> or<br /><br /> <strong>Ctrl+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Zoom out</td>
+<td><strong>Ctrl+Shift+,</strong><br /><br /> or<br /><br /> <strong>Ctrl+Down Arrow</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="vc-string-editor">VC String Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>New string</td>
+<td><strong>Insert</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="view-designer">View Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cancel retrieving data</td>
+<td><strong>Ctrl+T</strong></td>
+</tr>
+<tr class="even">
+<td>Criteria</td>
+<td><strong>Ctrl+2</strong></td>
+</tr>
+<tr class="odd">
+<td>Diagram</td>
+<td><strong>Ctrl+1</strong></td>
+</tr>
+<tr class="even">
+<td>Execute sql</td>
+<td><strong>Ctrl+R</strong></td>
+</tr>
+<tr class="odd">
+<td>Goto row</td>
+<td><strong>Ctrl+G</strong></td>
+</tr>
+<tr class="even">
+<td>Join mode</td>
+<td><strong>Ctrl+Shift+J</strong></td>
+</tr>
+<tr class="odd">
+<td>Results</td>
+<td><strong>Ctrl+4</strong></td>
+</tr>
+<tr class="even">
+<td>Sql</td>
+<td><strong>Ctrl+3</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="visual-studio">Visual Studio</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>Keyboard shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hide methods pane</td>
+<td><strong>Ctrl+1</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="windows-forms-designer">Windows Forms Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Break line</td>
+<td><strong>Enter</strong></td>
+</tr>
+<tr class="even">
+<td>Char left</td>
+<td><strong>Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Char left extend</td>
+<td><strong>Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Char right</td>
+<td><strong>Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Char right extend</td>
+<td><strong>Shift+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Document end</td>
+<td><strong>End</strong></td>
+</tr>
+<tr class="odd">
+<td>Document end extend</td>
+<td><strong>Shift+End</strong></td>
+</tr>
+<tr class="even">
+<td>Document start</td>
+<td><strong>Home</strong></td>
+</tr>
+<tr class="odd">
+<td>Document start extend</td>
+<td><strong>Shift+Home</strong></td>
+</tr>
+<tr class="even">
+<td>Insert tab</td>
+<td><strong>Tab</strong></td>
+</tr>
+<tr class="odd">
+<td>Line down</td>
+<td><strong>Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Line down extend</td>
+<td><strong>Shift+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Line up</td>
+<td><strong>Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Line up extend</td>
+<td><strong>Shift+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control down</td>
+<td><strong>Ctrl+Down Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control left</td>
+<td><strong>Ctrl+Left Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Move control right</td>
+<td><strong>Ctrl+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Move control up</td>
+<td><strong>Ctrl+Up Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Selection cancel</td>
+<td><strong>Escape</strong></td>
+</tr>
+<tr class="even">
+<td>Size control down</td>
+<td><strong>Ctrl+Shift+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control left</td>
+<td><strong>Ctrl+Shift+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Size control right</td>
+<td><strong>Ctrl+Shift+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Size control up</td>
+<td><strong>Ctrl+Shift+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Tab left</td>
+<td><strong>Shift+Tab</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="work-item-editor">Work Item Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Create copyof work item</td>
+<td><strong>Shift+Alt+C</strong></td>
+</tr>
+<tr class="even">
+<td>Refresh work item</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="odd">
+<td>New linked work item</td>
+<td><strong>Shift+Alt+L</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="work-item-query-view">Work Item Query View</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Create copyof work item</td>
+<td><strong>Shift+Alt+C</strong></td>
+</tr>
+<tr class="even">
+<td>Indent</td>
+<td><strong>Shift+Alt+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Outdent</td>
+<td><strong>Shift+Alt+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>New linked work item</td>
+<td><strong>Shift+Alt+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Refresh</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle</td>
+<td><strong>Shift+Alt+V</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="work-item-results-view">Work Item Results View</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Create copyof work item</td>
+<td><strong>Shift+Alt+C</strong></td>
+</tr>
+<tr class="even">
+<td>Indent</td>
+<td><strong>Shift+Alt+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Outdent</td>
+<td><strong>Shift+Alt+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Goto next work item</td>
+<td><strong>Shift+Alt+N</strong></td>
+</tr>
+<tr class="odd">
+<td>Goto previous work item</td>
+<td><strong>Shift+Alt+P</strong></td>
+</tr>
+<tr class="even">
+<td>New linked work item</td>
+<td><strong>Shift+Alt+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Refresh</td>
+<td><strong>F5</strong></td>
+</tr>
+<tr class="even">
+<td>Toggle</td>
+<td><strong>Shift+Alt+V</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="workflow-designer">Workflow Designer</h2>
+<table>
+<colgroup>
+<col style="width: 93%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Complete word</td>
+<td><strong>Ctrl+K, W</strong><br /><br /> or<br /><br /> <strong>Ctrl+K, Ctrl+W</strong><br /><br /> or<br /><br /> <strong>Ctrl+Spacebar</strong><br /><br /> or<br /><br /> <strong>Alt+Right Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Decrease filter level</td>
+<td><strong>Alt+,</strong></td>
+</tr>
+<tr class="odd">
+<td>Increase filter level</td>
+<td><strong>Alt+.</strong></td>
+</tr>
+<tr class="even">
+<td>List members</td>
+<td><strong>Ctrl+K, L</strong><br /><br /> or<br /><br /> <strong>Ctrl+K, Ctrl+L</strong><br /><br /> or<br /><br /> <strong>Ctrl+J</strong></td>
+</tr>
+<tr class="odd">
+<td>Parameter info</td>
+<td><strong>Ctrl+K, P</strong><br /><br /> or<br /><br /> <strong>Ctrl+K, Ctrl+P</strong><br /><br /> or<br /><br /> <strong>Ctrl+Shift+Spacebar</strong></td>
+</tr>
+<tr class="even">
+<td>Quick info</td>
+<td><strong>Ctrl+K, I</strong><br /><br /> or<br /><br /> <strong>Ctrl+K, Ctrl+I</strong></td>
+</tr>
+<tr class="odd">
+<td>Collapse</td>
+<td><strong>Ctrl+E, Ctrl+C</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, C</strong></td>
+</tr>
+<tr class="even">
+<td>Collapse all</td>
+<td>or</td>
+</tr>
+<tr class="odd">
+<td>Connect nodes</td>
+<td><strong>Ctrl+E, Ctrl+F</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, F</strong></td>
+</tr>
+<tr class="even">
+<td>Create variable</td>
+<td><strong>Ctrl+E, Ctrl+N</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, N</strong></td>
+</tr>
+<tr class="odd">
+<td>Expand all</td>
+<td><strong>Ctrl+E, Ctrl+X</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, X</strong></td>
+</tr>
+<tr class="even">
+<td>Expand in place</td>
+<td><strong>Ctrl+E, Ctrl+E</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, E</strong></td>
+</tr>
+<tr class="odd">
+<td>Go to parent</td>
+<td><strong>Ctrl+E, Ctrl+P</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, P</strong></td>
+</tr>
+<tr class="even">
+<td>Move focus</td>
+<td><strong>Ctrl+E, Ctrl+M</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, M</strong></td>
+</tr>
+<tr class="odd">
+<td>Navigate through designer</td>
+<td><strong>Ctrl+Alt+F6</strong></td>
+</tr>
+<tr class="even">
+<td>Restore</td>
+<td><strong>Ctrl+E, Ctrl+R</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, R</strong></td>
+</tr>
+<tr class="odd">
+<td>Show hide argument designer</td>
+<td><strong>Ctrl+E, Ctrl+A</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, A</strong></td>
+</tr>
+<tr class="even">
+<td>Show hide imports designer</td>
+<td><strong>Ctrl+E, Ctrl+I</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, I</strong></td>
+</tr>
+<tr class="odd">
+<td>Show hide overview map</td>
+<td><strong>Ctrl+E, Ctrl+O</strong> (letter ‘O’)<br /><br /> or<br /><br /> <strong>Ctrl+E, O</strong></td>
+</tr>
+<tr class="even">
+<td>Show hide variable designer</td>
+<td><strong>Ctrl+E, Ctrl+V</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, V</strong></td>
+</tr>
+<tr class="odd">
+<td>Toggle selection</td>
+<td><strong>Ctrl+E, Ctrl+S</strong><br /><br /> or<br /><br /> <strong>Ctrl+E, S</strong></td>
+</tr>
+<tr class="even">
+<td>Zoom in</td>
+<td><strong>Ctrl+Num +</strong></td>
+</tr>
+<tr class="odd">
+<td>Zoom out</td>
+<td><strong>Ctrl+Num -</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="xaml-ui-designer">XAML UI Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fit all</td>
+<td><strong>Ctrl+0</strong> (zero)</td>
+</tr>
+<tr class="even">
+<td>Show handles</td>
+<td><strong>F9</strong></td>
+</tr>
+<tr class="odd">
+<td>Zoom in</td>
+<td><strong>Ctrl+Alt+=</strong></td>
+</tr>
+<tr class="even">
+<td>Zoom out</td>
+<td><strong>Ctrl+Alt+-</strong></td>
+</tr>
+<tr class="odd">
+<td>Designer options</td>
+<td><strong>Ctrl+Shift+;</strong></td>
+</tr>
+<tr class="even">
+<td>Edit text</td>
+<td><strong>F2</strong></td>
+</tr>
+<tr class="odd">
+<td>All</td>
+<td><strong>Ctrl+Shift+R</strong></td>
+</tr>
+<tr class="even">
+<td>Run project code</td>
+<td><strong>Ctrl+F9</strong></td>
+</tr>
+<tr class="odd">
+<td>Hide ( blend only )</td>
+<td><strong>Ctrl+H</strong></td>
+</tr>
+<tr class="even">
+<td>Lock ( blend only )</td>
+<td><strong>Ctrl+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Show ( blend only )</td>
+<td><strong>Ctrl+Shift+H</strong></td>
+</tr>
+<tr class="even">
+<td>Unlock ( blend only )</td>
+<td><strong>Ctrl+Shift+L</strong></td>
+</tr>
+<tr class="odd">
+<td>Edge left move left</td>
+<td><strong>Ctrl+Shift+,</strong></td>
+</tr>
+<tr class="even">
+<td>Edge left move right</td>
+<td><strong>Ctrl+Shift+.</strong></td>
+</tr>
+<tr class="odd">
+<td>Edge right move left</td>
+<td><strong>Ctrl+Shift+Alt+,</strong></td>
+</tr>
+<tr class="even">
+<td>Edge right move right</td>
+<td><strong>Ctrl+Shift+Alt+.</strong></td>
+</tr>
+<tr class="odd">
+<td>Show property marker menu</td>
+<td><strong>Ctrl+Spacebar</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="xml-text-editor">XML (Text) Editor</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Start xslt debugging</td>
+<td><strong>Alt+F5</strong></td>
+</tr>
+<tr class="even">
+<td>Start xslt without debugging</td>
+<td><strong>Ctrl+Alt+F5</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="xml-schema-designer">XML Schema Designer</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Commands</th>
+<th>Keyboard shortcuts</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bottomto top</td>
+<td><strong>Alt+Up Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Leftto right</td>
+<td><strong>Alt+Right Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Rightto left</td>
+<td><strong>Alt+Left Arrow</strong></td>
+</tr>
+<tr class="even">
+<td>Topto bottom</td>
+<td><strong>Alt+Down Arrow</strong></td>
+</tr>
+<tr class="odd">
+<td>Removefrom workspace</td>
+<td><strong>Delete</strong></td>
+</tr>
+<tr class="even">
+<td>Show content model view</td>
+<td><strong>Ctrl+2</strong></td>
+</tr>
+<tr class="odd">
+<td>Show graph view</td>
+<td><strong>Ctrl+3</strong></td>
+</tr>
+<tr class="even">
+<td>Show start view</td>
+<td><strong>Ctrl+1</strong></td>
+</tr>
+</tbody>
+</table>    
+</div>
+</body>
+</html>
