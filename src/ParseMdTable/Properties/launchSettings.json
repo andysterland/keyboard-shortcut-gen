@@ -2,7 +2,7 @@
   "profiles": {
     "ParseMdTable": {
       "commandName": "Project",
-      "commandLineArgs": "--source C:\\src\\keyboard-shortcut-gen\\src\\Gen\\all-shortcut-list.md --target C:\\src\\keyboard-shortcut-gen\\src\\gen\\all-shortcut-list.out.md"
+      "commandLineArgs": "--source C:\\src\\keyboard-shortcut-gen\\src\\Gen\\all-shortcut-list.md --target C:\\src\\keyboard-shortcut-gen\\src\\gen\\default-keyboard-shortcuts-in-visual-studio.md"
     }
   }
 }
