@@ -61,7 +61,7 @@ namespace ParseMdTable
                 else if(line.StartsWith("|Command", StringComparison.CurrentCultureIgnoreCase) || line.StartsWith("| Command", StringComparison.CurrentCultureIgnoreCase))
                 {
                     outText.Append(line);
-                    outText.Append($"Command Id|");
+                    outText.Append($"Command ID|");
                     outText.AppendLine();
 
                 }
