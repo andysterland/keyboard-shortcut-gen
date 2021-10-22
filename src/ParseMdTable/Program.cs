@@ -89,7 +89,7 @@ namespace ParseMdTable
         }
 
         private static Dictionary<string, string> _issues = new Dictionary<string, string> {
-            {"codeanalysis", "codea nalysis"},
+            {"codeanalysis", "code analysis"},
             {"analysison", "analysis on"},
             {"Viewin", "View in"},
             {"Breakat", "Break at"},

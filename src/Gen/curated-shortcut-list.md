@@ -18,7 +18,7 @@
 |Debug.BreakAll|**Ctrl+Alt+Break**|
 |Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9**|
 |Debug.Exceptions|**Ctrl+Alt+E**|
-|Debug.QuickWatch|**Ctrl+Alt+Q**<br /><br />or **Shift+F9**|
+|Debug.QuickWatch|**Ctrl+Alt+Q** or **Shift+F9**|
 |Debug.Restart|**Ctrl+Shift+F5**|
 |Debug.RunToCursor|**Ctrl+F10**|
 |Debug.SetNextStatement|**Ctrl+Shift+F10**|
@@ -36,8 +36,8 @@
 |--------------| - |
 |Edit.CommentSelection|**Ctrl+K**, **Ctrl+C** |
 |Edit.CompleteWord|**Alt+Right Arrow** |
-|Edit.Copy|**Ctrl+C**<br /><br />or **Ctrl+Insert**|
-|Edit.Cut|**Ctrl+X**<br /><br />or **Shift+Delete**|
+|Edit.Copy|**Ctrl+C** or **Ctrl+Insert**|
+|Edit.Cut|**Ctrl+X** or **Shift+Delete**|
 |Edit.Delete|**Delete** |
 |Edit.Find|**Ctrl+F**|
 |Edit.FindAllReferences|**Shift+F12**|
@@ -111,7 +111,7 @@
 |--------------| - |
 |View.ClassView|**Ctrl+Shift+C**|
 |View.EditLabel|**F2**|
-|View.ErrorList|**Ctrl+\\, Ctrl+E**<br /><br />or **Ctrl+\\, E**|
+|View.ErrorList|**Ctrl+\\, Ctrl+E** or **Ctrl+\\, E**|
 |View.NavigateBackward|**Ctrl+-**|
 |View.NavigateForward|**Ctrl+Shift+-**|
 |View.ObjectBrowser|**Ctrl+Alt+J**|
@@ -119,7 +119,7 @@
 |View.PropertiesWindow|**F4**|
 |View.Refresh|**F5** |
 |View.ServerExplorer|**Ctrl+Alt+S**|
-|View.ShowSmartTag|**Ctrl+.**<br /><br />or **Shift+Alt+F10** |
+|View.ShowSmartTag|**Ctrl+.** or **Shift+Alt+F10** |
 |View.SolutionExplorer|**Ctrl+Alt+L**|
 |View.TfsTeamExplorer|**Ctrl+\\, Ctrl+M**|
 |View.Toolbox|**Ctrl+Alt+X**|

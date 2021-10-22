@@ -532,7 +532,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |--------------| - |
 |View.AllWindows|**Shift+Alt+M**|
 |View.ArchitectureExplorer|**Ctrl+\\, Ctrl+R**|
-|View.Backward|**Alt+Left Arrow** (Functions differently from View.NavigateBackward in Text Editor)|
+|View.Backward|**Alt+Left Arrow** |
 |View.BookmarkWindow|**Ctrl+K, Ctrl+W**|
 |View.BrowseNext|**Ctrl+Shift+1**|
 |View.BrowsePrevious|**Ctrl+Shift+2**|
@@ -547,7 +547,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |View.ErrorList|**Ctrl+\\, E**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+E**|
 |View.F#Interactive|**Ctrl+Alt+F**|
 |View.FindSymbolResults|**Ctrl+Alt+F12**|
-|View.Forward|**Alt+Right Arrow**  (Functions differently from View.NavigateForward in Text Editor)|
+|View.Forward|**Alt+Right Arrow** |
 |View.ForwardBrowseContext|**Ctrl+Shift+7**|
 |View.FullScreen|**Shift+Alt+Enter**|
 |View.NavigateBackward|**Ctrl+-**|
