@@ -404,9 +404,9 @@
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
-|SolutionExplorer.OpenFilesFilter|**Ctrl**+**[****, ****O**  or **Ctrl**+**[****, ****Ctrl**+**O** |
-|SolutionExplorer.PendingChangesFilter|**Ctrl**+**[****, ****P** or **Ctrl**+**[****, ****Ctrl**+**P**|
-|SolutionExplorer.SyncWithActiveDocument|**Ctrl**+**[****, ****S** or **Ctrl**+**[****, ****Ctrl**+**S**|
+|SolutionExplorer.OpenFilesFilter|**Ctrl**+**[**, **O**  or **Ctrl**+**[**, **Ctrl**+**O** |
+|SolutionExplorer.PendingChangesFilter|**Ctrl**+**[**, **P** or **Ctrl**+**[**, **Ctrl**+**P**|
+|SolutionExplorer.SyncWithActiveDocument|**Ctrl**+**[**, **S** or **Ctrl**+**[**, **Ctrl**+**S**|
 
 ## <a name="bkmk_team"></a> Team
 
