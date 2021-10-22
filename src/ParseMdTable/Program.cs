@@ -53,7 +53,8 @@ namespace ParseMdTable
                     firstCell = ReplaceKnownIssues(firstCell);
                     firstCell = string.Join(string.Empty, PascalCaseToSentence(firstCell));
                     parts[1] = FirstCharToUpper(firstCell);
-                    var outLine = string.Join("|", parts); 
+                    var outLine = string.Join("|", parts);
+                    outLine.Replace("<br />", string.Empty);
                     outText.Append(outLine);
                     outText.Append($" {commandString} |");
                     outText.AppendLine();
