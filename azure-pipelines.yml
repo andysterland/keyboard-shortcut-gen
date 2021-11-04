@@ -16,6 +16,7 @@ steps:
   - task: AzureFileCopy@4
     inputs:
       SourcePath: '$(Build.SourcesDirectory)\docs'
+      additionalArgumentsForBlobCopy: /Y /S /SetContentType:text/html /Pattern:*.html
       azureSubscription: 'AmandaSilver_TeamDemoSub_Connection'
       Destination: 'AzureBlob'
       storage: 'visualstudiokeyboard'
