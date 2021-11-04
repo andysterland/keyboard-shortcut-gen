@@ -12,12 +12,11 @@ steps:
     inputs:
       targetType: 'filePath'
       filePath: $(System.DefaultWorkingDirectory)\build.ps1
-  - task: AzureFileCopy@2
-    displayName: Deploy html files
+
+  - task: AzureFileCopy@4
     inputs:
-      sourcePath: $(Build.DefaultWorkingDirectory)\docs
-      additionalArgumentsForBlobCopy: /Y /S /SetContentType:text/html /Pattern:*.html
-      azureSubscription: AmandaSilver_TeamDemoSub(7262140c-ccfa-48c9-934d-aab7e37fa804)
-      destination: AzureBlob
-      storage: visualstudiokeyboard
-      containerName: $web 
+      SourcePath: '$(Build.DefaultWorkingDirectory)\docs'
+      azureSubscription: 'AmandaSilver_TeamDemoSub(7262140c-ccfa-48c9-934d-aab7e37fa804)'
+      Destination: 'AzureBlob'
+      storage: 'visualstudiokeyboard'
+      ContainerName: '$web'
