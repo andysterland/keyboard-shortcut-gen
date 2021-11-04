@@ -13,7 +13,7 @@ steps:
       targetType: 'filePath'
       filePath: $(System.DefaultWorkingDirectory)\build.ps1
 
-  - task: AzureFileCopy@4
+  - task: AzureFileCopy@2
     inputs:
       SourcePath: '$(Build.SourcesDirectory)\docs'
       additionalArgumentsForBlobCopy: /Y /S /SetContentType:text/html /Pattern:*.html
