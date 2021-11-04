@@ -20,4 +20,4 @@ steps:
       azureSubscription: AmandaSilver_TeamDemoSub(7262140c-ccfa-48c9-934d-aab7e37fa804)
       destination: AzureBlob
       storage: visualstudiokeyboard
-      containerName: $web
+      containerName: $web 
