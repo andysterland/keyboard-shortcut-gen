@@ -14,5 +14,5 @@ $files = Get-ChildItem intermediate\*.md
 foreach ($file in $files) {
 	$outFile = [System.IO.Path]::GetFileNameWithoutExtension($file) + ".html"
 	Write-Host "Processing intermediate markdown files" $file "to" $outFile
-	src\gen\pandoc.exe -s $file -o docs\$outFile -c kb.css --template kb-template.html --self-contained  --metadata title="Visual Studio 2022 - Keyboard Shortcuts" 
+	src\gen\pandoc.exe -s $file -o docs\$outFile -c src\Gen\kb.css --template src\Gen\kb-template.html --self-contained  --metadata title="Visual Studio 2022 - Keyboard Shortcuts" 
 } 
