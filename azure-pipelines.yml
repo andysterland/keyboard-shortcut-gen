@@ -12,10 +12,12 @@ steps:
     inputs:
       targetType: 'filePath'
       filePath: $(System.DefaultWorkingDirectory)\build.ps1
-  - task: AzureStaticWebApp@0
-    displayName: 'Publish site'
+
+  - task: AzureFileCopy@2
     inputs:
-      app_location: '/'
-      api_location: ''
-      output_location: 'docs'
-      azure_static_web_apps_api_token: $(deployment_token)
+      SourcePath: '$(Build.SourcesDirectory)\docs'
+      additionalArgumentsForBlobCopy: /Y /S /SetContentType:text/html /Pattern:*.html
+      azureSubscription: 'AmandaSilver_TeamDemoSub_Connection'
+      Destination: 'AzureBlob'
+      storage: 'visualstudiokeyboard'
+      ContainerName: '$web'
