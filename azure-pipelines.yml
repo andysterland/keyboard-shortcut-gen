@@ -1,0 +1,21 @@
+trigger:
+  - main
+
+pool:
+  vmImage: windows-latest
+
+steps:
+  - checkout: self
+    submodules: true
+  - task: PowerShell@2
+    displayName: 'Build site'
+    inputs:
+      targetType: 'filePath'
+      filePath: $(System.DefaultWorkingDirectory)\build.ps1
+  - task: AzureStaticWebApp@0
+    displayName: 'Publish site'
+    inputs:
+      app_location: '/'
+      api_location: ''
+      output_location: 'docs'
+      azure_static_web_apps_api_token: $(deployment_token)
