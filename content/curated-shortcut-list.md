@@ -1,4 +1,5 @@
-# Visual Studio 2022 <br/>Keyboard Shortcuts
+# Visual Studio 2022
+### Keyboard Shortcuts
 
 
 ## Build
